@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김포아트빌리지</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/fontawsome.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/mastar.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    
+    <style>
+        .show{
+            display: block;
+            position: absolute;
+            top: 90px;
+            background-color: rgba(255, 255, 255, 0.247);
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+<div id="section01">
+    <div class="menu_box">
+        <div class="main1">
+            <div class="logo">
+                <a href="#"><img src="images/logo3.png" id="logo-btn"></a>
+            </div>
+        </div>
+        
+       
+        <ul class="navi">
+            <li><a href="#section01">김포아트빌리지</a></li>
+            <li><a href="#section02">한옥마을</a></li>
+            <li><a href="#section03">창작스튜디오</a></li>
+            <li><a href="#section04">전시/공연장</a></li>
+            <li><a href="#section05">오시는길</a></li>
+      </ul>
+      <div class="btn">
+        <i class="fas fa-bars"></i>
+    </div>
+   </div>
+<!-- menu 끝 -->
+
+        <div class="font">
+            <h1><span>현대</span>와 <span1>전통</span1>의 공존</h1><br>
+               <p>ㅡ</p><br>
+               <h2>김포아트빌리지</h2>
+        </div>
+    
+</div>
+
+<!-- section 01 끝 -->
+
+
+<div id="section02">
+    <div class="hanok">
+        <div class="txt1">
+            <h3>정겨운 한옥마을</h3>
+        </div>
+        <div class="hanok2">
+            <div class="sec2-img">
+                <img src="images/img.jpg" alt="img">
+            </div>
+            
+            <div class="sec2-txtbox">
+                <h4>한옥 건물이 편안한 마음을 가지게 합니다.<br>
+                   한옥마을 내 식당이나 카페에서 음식을 먹을 수 있으며,<br>
+                   창작스튜디오(공방)을 통해 다양한 수업을 들을 수 있습니다.<br>
+                    또, 숙박체험을 통하여 한옥에서의 숙박을 할 수 있습니다.</h4>
+            </div>
+            
+    </div>
+</div>
+
+<!-- section 02끝 -->
+<div id="section03"></div>
+<!-- section 03끝 -->
+<div id="section04"></div>
+<!-- section 04끝 -->
+<div id="section05"></div>
+<!-- section 05끝 -->
+
+<script>
+
+     /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
+   if (jQuery(window).width() > 0) {
+    jQuery(window).on("scroll",function(ev){
+        if(jQuery(window).scrollTop() > 150 ) { /**높이 픽셀 조정**/
+            jQuery('.menu_box').addClass('fixed');  /**위의 높이에서 .fixed 클래스를 추가합니다. 스타일에서 자유롭게 수치 조절 가능합니다.**/
+        }
+        else{
+         jQuery('.menu_box').removeClass('fixed');
+        }
+        return false;
+    });
+   }
+
+   $(function(){
+   $(".btn").click(function(){
+      $('.navi').slideToggle();
+   });
+});
+</script>
+</body>
+</html>

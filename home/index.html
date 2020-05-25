@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김포아트빌리지</title>
+    <title>김포아트빌리지 </title>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/fontawsome.js"></script>
     <script src="js/script.js"></script>
+   <script src="js/swiper.min.js"></script>
+
+
+ 
 
     <link rel="stylesheet" href="css/mastar.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     
-    <style>
-        .show{
-            display: block;
-            position: absolute;
-            top: 90px;
-            background-color: rgba(255, 255, 255, 0.247);
-            width: 100%;
-        }
-    </style>
+    
 
 </head>
 <body>
@@ -58,34 +55,89 @@
 
 
 <div id="section02">
-    <div class="hanok">
-        <div class="txt1">
-            <h3>정겨운 한옥마을</h3>
+
+
+    <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="parallax-bg" style="background-image:url(./images/imgg.jpg)" data-swiper-parallax="-23%"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">한옥마을</div>
+       
+        <div class="text" data-swiper-parallax="-100">
+          <p>한옥 건물은 편안한 마음을 가지게 합니다.<br>
+            한옥마을 내 식당이나 카페에서 음식을 먹을 수 있으며,
+            창작스튜디오(공방)을 통해 다양한 수업을 들을 수 있습니다.<br>
+             또, 숙박체험을 통하여 한옥에서의 숙박을 할 수 있습니다.<br>
+            김포아트빌리지의 한옥마을에서 즐거운 한옥체험을 해보세요!</p>
         </div>
-        <div class="hanok2">
-            <div class="sec2-img">
-                <img src="images/img.jpg" alt="img">
-            </div>
-            
-            <div class="sec2-txtbox">
-                <h4>한옥 건물이 편안한 마음을 가지게 합니다.<br>
-                   한옥마을 내 식당이나 카페에서 음식을 먹을 수 있으며,<br>
-                   창작스튜디오(공방)을 통해 다양한 수업을 들을 수 있습니다.<br>
-                    또, 숙박체험을 통하여 한옥에서의 숙박을 할 수 있습니다.</h4>
-            </div>
-            
+      </div>
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300" data-swiper-parallax-opacity="0">오상관과 교육동</div>
+        
+        <div class="text" data-swiper-parallax="-100">
+          <p>한옥마을 안에 위치한 오상관은 50석 규모의 교육, 세미나, 회의장소로 활용 할 수 있는 곳입니다.<br>
+            그 외에 지역 문화행사 개최, 문화에 관련한 자료 수집 · 보존 · 보급,지역 문화에 대한 사회교육 활동,<br> 지역 환경보존 등 지역사회 발전을 위한 문화활동
+            등을 김포문화원이 하고 있습니다.</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">Slide 3</div>
+        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+        </div>
+      </div>
     </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+  </div>
+
 </div>
 
 <!-- section 02끝 -->
-<div id="section03"></div>
+
+
+<div id="section03">
+    <div class="sec3-img">
+        <img src="images/3-img1.jpg" alt="1">
+        
+        <img src="images/3-img2.jpg" alt="1">
+        
+        <img src="images/3-img3.jpg" alt="1">
+        
+        <img src="images/3-img4.jpg" alt="1">
+        
+
+    </div>
+
+</div>
 <!-- section 03끝 -->
+
+
 <div id="section04"></div>
 <!-- section 04끝 -->
 <div id="section05"></div>
 <!-- section 05끝 -->
 
 <script>
+
+var swiper = new Swiper('.swiper-container', {
+      speed: 600,
+      parallax: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
 
      /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
    if (jQuery(window).width() > 0) {
@@ -105,6 +157,9 @@
       $('.navi').slideToggle();
    });
 });
+
+
+
 </script>
 </body>
 </html>

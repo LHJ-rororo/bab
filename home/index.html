@@ -8,14 +8,21 @@
     <script src="js/fontawsome.js"></script>
     <script src="js/script.js"></script>
    <script src="js/swiper.min.js"></script>
+   <script src="js/demo.js"></script>
+   <script src="js/jquery.brickfolio.min.js"></script>
 
-
- 
+  
 
     <link rel="stylesheet" href="css/mastar.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/jquery.brickfolio.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/demo.css">
+    
+    
+    
     
     
 
@@ -82,10 +89,10 @@
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="title" data-swiper-parallax="-300">Slide 3</div>
-        <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
+        <!-- <div class="title" data-swiper-parallax="-300">Slide 3</div> -->
+        <!-- <div class="subtitle" data-swiper-parallax="-200">Subtitle</div> -->
         <div class="text" data-swiper-parallax="-100">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p> -->
         </div>
       </div>
     </div>
@@ -102,23 +109,39 @@
 
 
 <div id="section03">
-    <div class="sec3-img">
-        <img src="images/3-img1.jpg" alt="1">
-        
-        <img src="images/3-img2.jpg" alt="1">
-        
-        <img src="images/3-img3.jpg" alt="1">
-        
-        <img src="images/3-img4.jpg" alt="1">
-        
-
+  <div class="txt">한옥마을에서의 창작활동</div>
+  <div class="demo-wrapper">
+    <div class="brickfolio">
+      <div class="bf-item">
+        <img src="images/3-img1.jpg">
+        <h4>별 숲</h4>
+        <p>금속을 바탕으로 자연 소재를 이용한  한국형 금속 필기구, 주얼리를 만드는 곳입니다.</p>
+      </div>
+      <div class="bf-item">
+        <img src="images/3-img2.jpg">
+        <h4>김포한옥스튜디오</h4>
+        <p>경복궁, 전주한옥마을에서 즐기던 한복체험 이제 김포아트빌리지에서! 특별한 날 한복과 함께 특별한 추억을 선사합니다. </p>
+      </div>
+      <div class="bf-item">
+        <img src="images/3-img3.jpg">
+        <h4>빈티지돌</h4>
+        <p>핸드메이드인형, 패브릭소품, 돌페인팅, 팬시우드, 싹스돌 등을 수강하고 판매하는 공방입니다. </p>
+      </div>
+      <div class="bf-item">
+        <img src="images/3-img4.jpg">
+        <h4>오늘도예공방</h4>
+        <p>전통과 현대를 아우르는  도자기 전시 및 판매를 하고 있으며,<br> 다양한 체험 활동이 있는<br> 도예공방입니다. </p>
+      </div>
     </div>
-
+    
 </div>
-<!-- section 03끝 -->
+<!-- section 03끝 -------------------------------------------------->
 
 
-<div id="section04"></div>
+<div id="section04">
+  <div class="txt2">김포아트빌리지에서 예술을 즐기다!</div>
+  
+</div>
 <!-- section 04끝 -->
 <div id="section05"></div>
 <!-- section 05끝 -->
@@ -158,6 +181,10 @@ var swiper = new Swiper('.swiper-container', {
    });
 });
 
+
+jQuery(function($){
+			$('.brickfolio').brickfolio();
+		});
 
 
 </script>

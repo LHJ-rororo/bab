@@ -46,10 +46,10 @@
     line-height: 100px;
     font-size: 18px;
     font-weight: 600;
-    font-family: 'MapoGoldenPier';
-
-    
-    
+    font-family: 'MapoGoldenPier';  
+}
+.menu_box li a:hover{
+    color: #fff;
 }
 
 /*  logo*/
@@ -176,19 +176,25 @@ html, body {
 
 #section03{
     width:100%; 
-    height:1000px; 
-    background:rgb(255, 255, 255);
+    height: 1000px; 
+    background: url(../images/3-img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
 }
 #section03>.txt{
     text-align: center;
     font-size: 40px;
     padding-top: 10%;
     font-family: 'MapoGoldenPier';
+    color: #fff;
 }
 .demo-wrapper>.brickfolio>.bf-item>h4{
     font-size: 18px;
     font-family: 'MapoGoldenPier';
     font-weight: bold;
+    
 }
 .demo-wrapper>.brickfolio>.bf-item>p{
     line-height: 25px;
@@ -198,6 +204,14 @@ html, body {
     font-weight: bold;
     font-size: 15px;
 }
+.txt-1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: 'MapoGoldenPier';
+    color: #fff;
+}
 
     /* ㅡㅡㅡㅡㅡㅡ section03 ㅡㅡㅡㅡㅡㅡㅡ끝 */
     
@@ -205,9 +219,35 @@ html, body {
 #section04{
     width:100%; 
     height:1000px; 
-    background:rgb(192, 142, 142);
+    background:rgb(255, 255, 255);
 }
-	
+.txt2{
+    font-size: 40px;
+    font-family: 'MapoGoldenPier';
+    text-align: center;
+    padding-top: 10%;
+}
+.img4{
+    display: flex;
+    padding-top: 5%;
+}
+.img1{
+    margin:0 auto;
+}
+.img2{
+    margin: 0 auto;
+}
+#section04 p{
+    padding-top: 4%;
+    text-align: center;
+    font-family: 'MapoGoldenPier';
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    /* ㅡㅡㅡㅡㅡㅡ section04 ㅡㅡㅡㅡㅡㅡㅡ끝 */
+    
 #section05{
     width:100%; 
     height:1500px; 
@@ -219,6 +259,7 @@ html, body {
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
 }
+
 
 
 
@@ -249,9 +290,40 @@ html, body {
     .menu_box{
         height: 55px;
     }
+    /* 섹션1 */
     .swiper-slide .text{
         padding-top: 20px;
     }
+    /* 섹션2 */
+    #section03{
+        height: 2500px;
+    }
+    #section03>.txt{
+        font-size: 30px;
+    }
+    #section03>.demo-wrapper{
+        padding-top: 45px;
+    }
+
+    /* 섹션3 */
+
+
+    .img4{
+        display: block;
+    }
+    #section04{
+        height: 1185px;
+    }
+    #section04>.txt2{
+        font-size: 30px;
+        padding-bottom: 5%;
+    }
+    #section04 p{
+        padding-bottom: 5%;
+    }
+    
+
+    
   
     
     

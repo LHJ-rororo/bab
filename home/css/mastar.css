@@ -30,7 +30,6 @@
 }
 
 .navi{
-    
     display: flex;
     padding-right: 100px;
     
@@ -213,7 +212,6 @@ html, body {
     color: #fff;
 }
 .txtbox{
-    justify-content: center;
     cursor: pointer;
 }
 .txtbox>.box{
@@ -222,6 +220,7 @@ html, body {
     height: 50px;
     background: #fff;
     border-radius: 5px;
+    
 }
 .txtbox>.box>p{
     text-align: center;
@@ -258,8 +257,8 @@ html, body {
     text-align: center;
     font-family: 'MapoGoldenPier';
     line-height: 25px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 17px;
+    
 }
 
     /* ㅡㅡㅡㅡㅡㅡ section04 ㅡㅡㅡㅡㅡㅡㅡ끝 */
@@ -324,7 +323,7 @@ html, body {
         font-size: 15px;
     }
 
-    /* 섹션3 */
+    /* 섹션3끝 */
 
 
     .img4{
@@ -342,11 +341,11 @@ html, body {
     }
     .img1>img{
         width: 350px;
-        padding-left: 15%;
+        padding-left: 10%;
     }
     .img2>img{
         width: 350px;
-        padding-left: 15%;
+        padding-left: 10%;
     }
     
 

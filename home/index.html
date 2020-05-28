@@ -220,7 +220,16 @@ var swiper = new Swiper('.swiper-container', {
 
 jQuery(function($){
 			$('.brickfolio').brickfolio();
-		});
+    });
+
+    $(function(){
+      $(".btn").click(function(){
+        $(".navi").toggle();
+        
+      });
+    });
+
+
 
 
 

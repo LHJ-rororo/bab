@@ -1,11 +1,4 @@
 
-document.getElementById("btn-nav").onclick = function() {
-    myFunction()};
-
-function myFunction() {
-    document.getElementById("menu_box").classList.toggle("show");
-}
-
 
 // var nav=document.getElementById('nav');
 

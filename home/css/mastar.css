@@ -212,13 +212,29 @@ html, body {
     font-family: 'MapoGoldenPier';
     color: #fff;
 }
-
+.txtbox{
+    justify-content: center;
+    cursor: pointer;
+}
+.txtbox>.box{
+    border: solid 1px #fff;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    border-radius: 5px;
+}
+.txtbox>.box>p{
+    text-align: center;
+    margin-top: 19px;
+    font-family: 'MapoGoldenPier';
+    font-weight: bold;
+}
     /* ㅡㅡㅡㅡㅡㅡ section03 ㅡㅡㅡㅡㅡㅡㅡ끝 */
     
 
 #section04{
     width:100%; 
-    height:1000px; 
+    height:900px; 
     background:rgb(255, 255, 255);
 }
 .txt2{
@@ -304,6 +320,9 @@ html, body {
     #section03>.demo-wrapper{
         padding-top: 45px;
     }
+    .txt-1>p{
+        font-size: 15px;
+    }
 
     /* 섹션3 */
 
@@ -312,7 +331,7 @@ html, body {
         display: block;
     }
     #section04{
-        height: 1185px;
+        height: 1000px;
     }
     #section04>.txt2{
         font-size: 30px;
@@ -320,6 +339,14 @@ html, body {
     }
     #section04 p{
         padding-bottom: 5%;
+    }
+    .img1>img{
+        width: 450px;
+        padding-left: 3.5%;
+    }
+    .img2>img{
+        width: 450px;
+        padding-left: 3.5%;
     }
     
 

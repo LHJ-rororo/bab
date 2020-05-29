@@ -11,6 +11,7 @@
    <script src="js/demo.js"></script>
    <script src="js/jquery.brickfolio.min.js"></script>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=88e8f047537585e77bfebda90bebfc24"></script>
    
    
 
@@ -176,8 +177,97 @@
 <!---------------- section 04끝 --------------->
 <div id="section05">
   <div class="come">
-    <p>찾아오시는 길</p>
+    <p>찾아오시는 길<br></p>
   </div>
+  <div class="line"></div>
+  <div class="howcome">
+    <p>김포아트빌리지로 오시는 길을 소개합니다.</p>
+  </div>
+  
+  
+  <!---------------------------------- 지도 ---------------------------->
+  <div id="map" style="width:100%px;height:400px; margin: 0 auto; border: solid 5px rgb(138, 138, 138);">
+  
+  </div>
+
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=88e8f047537585e77bfebda90bebfc24"></script>
+<script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+  mapOption = { 
+        center: new kakao.maps.LatLng(37.645559, 126.695918), // 지도의 중심좌표
+        level: 4 // 지도의 확대 레벨
+    };
+
+var map = new kakao.maps.Map(mapContainer, mapOption);
+
+var imageSrc = 'map.png', // 마커이미지의 주소입니다    
+    imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+    imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+// 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+    markerPosition = new kakao.maps.LatLng(37.645559, 126.695918); // 마커가 표시될 위치입니다
+
+// 마커를 생성합니다
+var marker = new kakao.maps.Marker({
+  position: markerPosition,
+  image: markerImage // 마커이미지 설정 
+});
+
+// 마커가 지도 위에 표시되도록 설정합니다
+marker.setMap(map);  
+
+// 커스텀 오버레이에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+var content = '<div class="customoverlay">' +
+    '  <a href="http://kko.to/cJfR_lpD0" target="_blank">' +
+    '    <span class="title">김포아트빌리지</span>' +
+    '  </a>' +
+    '</div>';
+
+// 커스텀 오버레이가 표시될 위치입니다 
+var position = new kakao.maps.LatLng(37.645559, 126.695918);  
+
+// 커스텀 오버레이를 생성합니다
+var customOverlay = new kakao.maps.CustomOverlay({
+    map: map,
+    position: position,
+    content: content,
+    yAnchor: 1 
+});
+</script>
+<!---------------------------- 지도끝 ------------------------------>
+<div class="bus">
+  <p><span>대중교통</span> | 김포한강신도시 IC | 운양동 한강화성파크 드림 방면<br>
+    <span>버스</span> | 당산(7100번), 여의도(G6001번), 
+    석수역(388번), 인천(81-1번) → 아트빌리지 하차</p>
+</div>
+<div class="come2">
+  <div class="home">
+    <div class="home2">
+    <img src="images/home.png" alt="home">
+    <div class="span1">주소</div>
+    <p>경기도 김포시 모담 공원로 170</p>
+    </div>
+    
+  </div> 
+
+  <div class="call">
+    <div class="call2">
+    <img src="images/call.png" alt="call">
+    <div class="span2">연락처</div>
+    <p>031-996-6836</p>
+    </div>
+    
+  </div> 
+
+  <div class="fax">
+    <div class="fax2">
+    <img src="images/fax.png" alt="fax">
+    <div class="span3">FAX</div>
+    <p>031-981-9643</p>
+    </div>
+    
+  </div> 
 </div>
 <!-- section 05끝 -->
 
@@ -224,6 +314,9 @@ jQuery(function($){
 
 
   AOS.init();
+
+  //맵//
+
     
 
     

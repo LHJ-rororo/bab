@@ -250,22 +250,166 @@ html, body {
     
 #section05{
     width:100%; 
-    height:900px; 
-    background:rgb(167, 158, 126);
+    height:1500px; 
+    background:rgb(255, 255, 255);
 }
-#section05>.come{
+.come>p{
     font-size: 40px;
     font-family: 'MapoGoldenPier';
     text-align: center;
-    padding-top: 7%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+.line{
+    border-bottom: solid 2px rgb(27, 27, 27);
+    width: 200px;
+    margin:0 auto;
+}
+.howcome{
+    font-size: 30px;
+    font-family: 'MapoGoldenPier';
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/*~~~~~~~~~~~~~~~~~~~ 하단 ~~~~~~~~~~~~~~~~~~~ */
+.bus>p{
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'MapoGoldenPier';
+    line-height: 30px;
+    font-size: 20px;
+}
+.bus>p>span{
+    color: #1d90d3  ;
+}
+.come2{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.home{
+    border: solid 1px rgb(209, 209, 209);
+    width: 300px;
+    height: 300px;
+}
+.home2>img{
+    width: 130px;
+    text-align: center;
+}
+.home2{
+    padding-top: 30%;
+    text-align: center;
+    font-family: 'MapoGoldenPier';
+}
+.home2>p{
+    padding-top: 9%;
+    font-size: 20px;
+}
+.call{ 
+    border: solid 1px rgb(209, 209, 209);
+    width: 300px;
+    height: 300px;
+
+}
+.call2{
+    padding-top: 25%;
+    text-align: center;
+    font-family: 'MapoGoldenPier';
+}
+.call2>img{
+    width: 100px;
+}
+.call2>p{
+    padding-top: 9%;
+    font-size: 20px;
+}
+.fax{
+    border: solid 1px rgb(209, 209, 209);
+    width: 300px;
+    height: 300px;
+}
+.fax2{
+    padding-top: 25%;
+    text-align: center;
+    font-family: 'MapoGoldenPier';
+}
+.fax2>img{
+    padding-top: 5%;
+    width: 70px;
+}
+.fax2>p{
+    padding-top: 10%;
+    font-size: 20px;
+}
+.span1{
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.span2{
+    font-size: 30px;
+    padding-top: 1%;
+    font-weight: bold;
+}
+.span3{
+    font-size: 30px;
+    padding-top: 5%;
+    font-weight: bold;
 }
 
 
-/* ㅡㅡㅡㅡㅡㅡ section04 ㅡㅡㅡㅡㅡㅡㅡ끝 */
+
+/* ㅡㅡㅡㅡㅡㅡ section05 ㅡㅡㅡㅡㅡㅡㅡ끝 */
 .fixed {
     background: rgba(255, 255, 255, 0.5);
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
+}
+
+/* ㅡㅡㅡㅡㅡㅡ지도ㅡㅡㅡㅡㅡㅡㅡ */
+.customoverlay{ 
+    position:relative;
+    bottom:85px;
+    border-radius:6px;
+    border: 1px solid #ccc;
+    border-bottom:2px solid #ddd;
+    float:left;
+}
+.customoverlay:nth-of-type(n) {
+    border:0; 
+    box-shadow:0px 1px 2px #888;
+}
+.customoverlay a {
+    display:block;
+    text-decoration:none;
+    color:#000;
+    text-align:center;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    background: #d95050;
+    background: #d95050 url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center;
+}
+.customoverlay .title {
+    display:block;
+    text-align:center;
+    background:#fff;
+    margin-right:35px;
+    padding:10px 15px;
+    font-size:14px;
+    font-weight:bold;
+}
+.customoverlay:after {
+    content:'';
+    position:absolute;
+    margin-left:-12px;
+    left:50%;
+    bottom:-12px;
+    width:22px;
+    height:12px;
+    background:url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')
 }
 
 
@@ -343,6 +487,16 @@ html, body {
         width: 350px;
         padding-left: 9%;
     }
+
+    /*            섹션4끝             */
+    #section05{
+        height: 1700px;
+    }
+    .come2{
+        display: block;
+        padding-left: 20%;
+    }
+    
     
 
     

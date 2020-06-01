@@ -53,6 +53,9 @@
       <div class="btn">
         <i class="fas fa-bars"></i>
     </div>
+    <div class="x">
+      <i class="fas fa-times"></i>
+    </div>
    </div>
 <!-- menu 끝 -->
 
@@ -176,7 +179,7 @@
 
 <!---------------- section 04끝 --------------->
 <div id="section05">
-  <div class="come">
+  <div class="come" data-aos="fade-right">
     <p>찾아오시는 길<br></p>
   </div>
   <div class="line"></div>
@@ -302,7 +305,14 @@ var swiper = new Swiper('.swiper-container', {
 
    $(function(){
    $(".btn").click(function(){
-      $('.navi').slideToggle();
+      $('.btn').css("display","none");
+      $('.x').css("display","block");
+      $('.navi').slideDown();
+   });
+   $(".x").click(function(){
+      $('.x').css("display","none");
+      $('.btn').css("display","block");
+      $('.navi').slideUp();
    });
 });
 

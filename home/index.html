@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김포아트빌리지 </title>
+    <link rel="shortcut icon" href="images/fhrh.png">
+
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/fontawsome.js"></script>
     <script src="js/script.js"></script>
@@ -12,6 +15,7 @@
    <script src="js/jquery.brickfolio.min.js"></script>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=88e8f047537585e77bfebda90bebfc24"></script>
+   <script src="js/slider.js"></script>
    
    
 
@@ -25,6 +29,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/demo.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slider.css">
+    
     
     
     
@@ -114,11 +120,10 @@
 
 </div>
 
-<!-- section 02끝 -->
-
+<!-- section 02끝 -------------------------------------------------->
 
 <div id="section03">
-  <div class="txt">한옥마을에서 창작활동을!</div>
+  <div class="txt">한옥마을에서 창작활동을!<span>(click)</span></div>
   <div class="demo-wrapper">
     <div class="brickfolio">
       <div class="bf-item">
@@ -147,37 +152,65 @@
       <p>이 외에도 더 많은 창작스튜디오가 있습니다.</p>
     </div>
     
-  </div>
-
-    
+  </div>   
 </div>
+
+
 <!-- section 03끝 -------------------------------------------------->
-
-
 <div id="section04">
-  <div class="txt2">김포아트빌리지에서 예술을 즐기다!</div>
-    <div class="img4" data-aos="fade-zoom-in"
-    data-aos-easing="ease-in-back"
-    data-aos-delay="300"
-    data-aos-offset="0">
-      <div class="img1">
-        <img src="images/4-img1.jpg">
-          <p>전시실은 3개의 공간으로 나뉘어져 있으며,<br>
-          넉넉한 공간과 최신 시설로 전통에서<br> 
-          현대까지 다양한 장르의 전시와<br>
-          쾌적한 전시환경을 제공해 드립니다</p>
+    <div class="sec04-row">
+      <div class="sec04-txt">
+        <h1>김포 아트빌리지에서 예술을 즐기다!</h1>
       </div>
-      <div class="img2">
-        <img src="images/4-img2.jpg">
+      <div class="sec04-img">
+        <div class="sec04-content01">
+          <div class="sec04-content01-img">
+
+          </div>
+          <div class="sec04-content01-text">
+            <p>전시실은 3개의 공간으로 나뉘어져 있으며,<br>
+              넉넉한 공간과 최신 시설로 전통에서<br> 
+              현대까지 다양한 장르의 전시와<br>
+              쾌적한 전시환경을 제공해 드립니다.</p>
+          </div>
+        </div>
+        <div class="sec04-content02">
+          <div class="sec04-content02-img">
+            
+          </div>
+          <div class="sec04-content02-text">
           <p>모담산과 함께 위치하고 있는 야외공연장은<br>
-          공연과 자연이 함께 어우러져 시민들에게<br> 
-          문화예술의 공간을 제공합니다.
-          </p>
+            공연과 자연이 함께 어우러져 시민들에게<br> 
+            문화예술의 공간을 제공합니다.
+            </p>
+          </div>
+        </div>
       </div>
+      <!-- sec04-img -->
+    </div>
+    <!-- sec04 row  -->
+    <div class="sec04-btn">
+      <h1 class="event-btn">이달의 전시</h1>
+    </div>
+    <div class="event">
+      <div class="kan">
+        <img src="images/kan.png">
+      </div>
+      <p><span>일시</span> | 2020년 05월 07일~2020년 07월 31일<br>
+        2020.05.07 ~ 07.31 (월요일 휴관)<br><br>
+
+        <span>관람등급</span> | 만 10개월 이상<br><br>
+        
+        
+        <span>관람시간</span> | 10:00 ~ 18:00<br><br>
+        
+        <span>티켓</span> | 2,000 원</p>
     </div>
 </div>
 
 <!---------------- section 04끝 --------------->
+
+
 <div id="section05">
   <div class="come" data-aos="fade-right">
     <p>찾아오시는 길<br></p>
@@ -189,12 +222,14 @@
   
   
   <!---------------------------------- 지도 ---------------------------->
-  <div id="map" style="width:100%px;height:400px; margin: 0 auto; border: solid 5px rgb(138, 138, 138);">
+  <div id="map" style="width:100%px;height:400px; margin: 0 auto;">
   
   </div>
 
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=88e8f047537585e77bfebda90bebfc24"></script>
 <script>
+
+  
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
   mapOption = { 
         center: new kakao.maps.LatLng(37.645559, 126.695918), // 지도의 중심좌표
@@ -325,16 +360,34 @@ jQuery(function($){
 
   AOS.init();
 
-  //맵//
+  
 
-    
+  $(function(){
+    $('.txt').click(function(){
+      $('.demo-wrapper').slideToggle();
+      // $('.demo-wrapper').css('display','flex');
+      $('.brickfolio').css('display','flex');
+      $('.txt-1').css('paddingTop','-10px');
+    });
+  });
 
-    
 
 
+  $(function(){
+    $('.event-btn').click(function(){
+      $('.event').slideToggle().css("display","flex");
+      $('.kan').css('paddingTop','30px');
+    });
+  });
 
 
+  
 
+
+  
+
+
+  
 
 </script>
 </body>

@@ -39,6 +39,7 @@ html {
 
 .navi>li{
     padding-left: 50px;
+    
 }
 
 .menu_box li a {
@@ -187,7 +188,7 @@ html, body {
 
 #section03{
     width:100%; 
-    height: 800px; 
+    
     background: url(../images/3-img5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +198,8 @@ html, body {
 #section03>.txt{
     text-align: center;
     font-size: 40px;
-    padding-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     font-family: 'MapoGoldenPier';
     color: #fff;
     cursor: pointer;
@@ -336,7 +338,10 @@ html, body {
 .event>p>span{
     font-weight: bold;
 }
-
+.line-04{
+    border-bottom: 3px solid rgb(184, 184, 184);
+    padding-top: 10%;
+}
 
     /* ㅡㅡㅡㅡㅡㅡ section04 ㅡㅡㅡㅡㅡㅡㅡ끝 */
     
@@ -520,12 +525,21 @@ html, body {
 
 @media(min-width:768px){
     .btn{
-        display: none;
+        display: none !important;
+    }
+    .x{
+        display: none !important;
+    }
+    
+    .navi{
+        display: flex !important;
     }
     .navi{
-        display: flex;
+        float: left;
+        
     }
 }
+
 
 
 @media(max-width:767px){
@@ -559,19 +573,19 @@ html, body {
     .menu_box{
         height: 55px;
     }
-    /* 섹션1 */
+    /* 섹션1 끝 */
+
+
     .swiper-slide .text{
         padding-top: 20px;
     }
-    /* 섹션2 */
+    /* 섹션2 끝*/
+
 
 
     /* 섹션3 */
 
-    #section03{
-       
-       
-    }
+    
     #section03>.txt{
         padding-top: 30px;
         font-size: 30px;

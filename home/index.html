@@ -123,7 +123,7 @@
 <!-- section 02끝 -------------------------------------------------->
 
 <div id="section03">
-  <div class="txt">한옥마을에서 창작활동을!<span>(click)</span></div>
+  <div class="txt">한옥마을에서 창작활동을?<span>(click)</span></div>
   <div class="demo-wrapper">
     <div class="brickfolio">
       <div class="bf-item">
@@ -156,7 +156,7 @@
 </div>
 
 
-<!-- section 03끝 -------------------------------------------------->
+<!-- section 03끝 ----------------------------------->
 <div id="section04">
     <div class="sec04-row">
       <div class="sec04-txt">
@@ -205,6 +205,10 @@
         <span>관람시간</span> | 10:00 ~ 18:00<br><br>
         
         <span>티켓</span> | 2,000 원</p>
+    </div>
+
+    <div class="line-04">
+
     </div>
 </div>
 
@@ -338,6 +342,7 @@ var swiper = new Swiper('.swiper-container', {
     });
    }
 
+//메뉴아이콘
    $(function(){
    $(".btn").click(function(){
       $('.btn').css("display","none");
@@ -350,12 +355,14 @@ var swiper = new Swiper('.swiper-container', {
       $('.navi').slideUp();
    });
 });
+//메뉴아이콘끝
 
 
+//섹션3
 jQuery(function($){
 			$('.brickfolio').brickfolio();
     });
-
+//섹션3끝
 
 
   AOS.init();
@@ -380,6 +387,19 @@ jQuery(function($){
     });
   });
 
+
+// 메뉴 //
+
+jQuery(document).ready(function(){
+        jQuery(".Btn").click(function(){
+
+            // slideToggle은 요소의 height값을 조작해서 움직임을 만들어낸다.
+            // 보이면 안보이게, 안보이면 보이게 처리한다.
+            
+            jQuery(".navi").slideToggle();
+        });
+    });
+    </script>
 
   
 

@@ -1,0 +1,58 @@
+@font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.col-sm-12{
+    background: url('../img/back.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.logo img{
+    width: 100px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+.main-txt{
+    position: relative;
+    text-align: center;
+    top: -20px;
+}
+.main-title{
+    color: rgb(211, 211, 211);
+    text-align: center;
+    font-size: 70px;    
+    font-family: 'NotoSerifKR';
+    letter-spacing: 40px;
+}
+.main-title-2{
+    color: rgb(211, 211, 211);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'NotoSerifKR';
+    letter-spacing: 23px;
+}
+.main-title-3{
+    color: rgb(211, 211, 211);
+    line-height: 60px;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'NotoSerifKR';
+}
+.main-title-4{
+    color: rgb(211, 211, 211);
+    line-height: 60px;
+    padding-top: 580px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'NotoSerifKR';
+    letter-spacing: 20px;
+    
+}

@@ -1,5 +1,6 @@
 @font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); .notosanskr * { font-family: 'Noto Sans KR', sans-serif; }
 
 *{
     margin: 0;
@@ -19,7 +20,7 @@
     padding-top: 5px;
 }
 .main-txt{
-    position: relative;
+    /* position: relative; */
     text-align: center;
     top: -20px;
 }
@@ -56,3 +57,142 @@
     letter-spacing: 20px;
     
 }
+/* section1 끝 */
+
+.section2{
+    background-color: rgb(241, 235, 228);
+}
+.tab-car-color-txt>ul>li{
+    list-style: none;
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+.tab-car-color-txt>ul{
+    display: flex;
+}
+.sgp{
+    background-color: rgb(43, 43, 43);
+}
+.mcd{
+    background-color: rgb(8, 8, 43);
+}
+.tlb{
+    background-color: rgb(0, 0, 0);
+}
+.svd{
+    background-color: rgb(77, 0, 19);
+}
+.rpt{
+    background-color: rgb(51, 71, 52);
+}
+.wtc{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#mcd{
+    display: none;
+}
+#tlb{
+    display: none;
+}
+#svd{
+    display: none;
+}
+#rpt{
+    display: none;
+}
+#wtc{
+    display: none;
+}
+/*  */
+
+.txt2,.txt3,.txt4,.txt5,.txt6{
+    display: none;
+    
+}
+.section02-text h1{
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.section2-main-txt{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.section2-sub-txt{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .main-title{
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 30px;   
+    }
+    .main-title-2{
+        font-size: 25px;
+        letter-spacing: 10px;
+        padding-top: 30px;
+    }
+    .main-title-3{
+        font-size: 18px;
+        letter-spacing: 4px;
+        line-height: 25px;
+        padding-top: 30px;
+    }
+    .main-title-4{
+        position: absolute;
+        top: 280px;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    .main-txt{
+        padding-top: 90px;
+    }
+    #sgp>img{
+        width: 480px;
+    }
+    #mcd>img{
+        width: 480px;
+    }
+    #tlb>img{
+        width: 480px;
+    }
+    #svd>img{
+        width: 480px;
+    }
+    #rpt>img{
+        width: 480px;
+    }
+    #wtc>img{
+        width: 480px;
+    }
+    .tab-car-color-txt>ul>li{
+        width: 35px;
+        height: 35px;
+    }
+    
+}
+
+
+
+

@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
 }
-.col-sm-12{
+.section01-background{
     background: url('../img/back.jpg');
     background-size: cover;
     background-position: bottom center;
@@ -113,7 +113,7 @@
 
 .section2{
     /* background:url('../img/back-1.jpg'); */
-    background-color: rgb(224, 216, 212);
+    background-color: rgb(192, 192, 192);
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
@@ -160,8 +160,53 @@
     height: 110px;
     background-color: rgba(255, 255, 255, 0.3);
 }
+/* section02 끝 */
+.section03{
+    background-color: rgb(209, 209, 209);
+}
+.section03-img{
+    background: url('../img/img1-4.jpg');
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+.section03-main-txt{
+    padding-top: 200px;
+    font-family: 'NotoSerifKR';
+    color: rgb(211, 211, 211);
+    float: right;
+}
+.section03-main-txt>h1{
+    letter-spacing: 5px;
+    padding-right: 30px;
+}
+.section03-main-txt>h2{
+    font-size: 20px;
+    letter-spacing: 10px;
+    float: right;
+    padding-right: 30px;
+}
 
 
+
+/* modal */
+.modal-1{
+    /* position: absolute; */
+    padding-bottom: 100px;
+}
+.modal-dialog>img{
+    width: 600px;
+}
+.modal-title{
+    font-size: 30px;
+    font-family: 'NotoSerifKR';
+}
+.modal-body{
+    font-size: 18px;
+    font-family: 'NotoSerifKR';
+}
 
 
 

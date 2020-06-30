@@ -385,6 +385,7 @@
     animation: .6s ease infinite;
     -webkit-animation: .6s infinite ease;
     cursor: pointer;
+    
 }
 .circle1{
     top: 370px;
@@ -411,6 +412,19 @@
     top: 450px;
     left: 980px;
 }
+/*  */
+.vip-txt>h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'NotoSerifKR';
+    text-align: center;
+
+}
+.vip2{
+    padding-bottom: 100px;
+}
+
+
 
 
 

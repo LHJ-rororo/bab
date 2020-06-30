@@ -5,6 +5,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 .section01-background{
     background: url('../img/back.jpg');
@@ -12,7 +14,7 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     height: 100vh;
-    width: 100%;
+    
 }
 .logo img{
     width: 100px;
@@ -166,33 +168,35 @@
     background-color: rgba(255, 255, 255, 0.3);
 }
 /* section02 끝 */
+
 .section03{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
 }
 .section03-img{
-    background: url('../img/car-in2.jpg');
-    background-position: right center;
+    background: url('../img/img1-4-1.jpg');
+    background-position: center;
     background-size: 2000px;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 100%;
+    height: 720px;
+    width: 100%;   
 }
-.section03-main-txt{
-    padding-top: 400px;
+.section03-txt{
     font-family: 'NotoSerifKR';
     color: rgb(211, 211, 211);
-    float: right;
+    padding-top: 300px;
+    padding-left: 20px;
 }
-.section03-main-txt>h1{
+.section03-txt>h1{
     letter-spacing: 5px;
-    padding-right: 30px;
 }
-.section03-main-txt>h2{
+.section03-txt>h2{
     font-size: 20px;
     letter-spacing: 10px;
-    float: right;
-    padding-right: 30px;
 }
+
+
+
+
 
 
 
@@ -209,36 +213,168 @@
     font-size: 18px;
     font-family: 'NotoSerifKR';
 }
-/* section03 */
+.modal-2{
+    
+    padding-bottom: 7px;
+}
+.modal-1{
+
+}
+
+/* section03 끝 */
+
+
+
 
 .section04{
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255, 255, 255);
 }
 .section04-img{
-    background: url('../img/img1-4-1.jpg');
-    background-position: center;
+    background: url('../img/car-in2.jpg');
+    background-position: right center;
     background-size: 2000px;
     background-repeat: no-repeat;
-    height: 770px;
-    width: 100%;   
+    height: 860px;
+    width: 100%;
+    
 }
-.section04-txt{
+.section04-main-txt{
+    padding-top: 400px;
     font-family: 'NotoSerifKR';
     color: rgb(211, 211, 211);
-    padding-top: 300px;
-    padding-left: 20px;
+    float: right;
 }
-.section04-txt>h1{
+.section04-main-txt>h1{
     letter-spacing: 5px;
+    padding-right: 30px;
 }
-.section04-txt>h2{
+.section04-main-txt>h2{
     font-size: 20px;
     letter-spacing: 10px;
+    float: right;
+    padding-right: 30px;
 }
-.modal-2{
-    padding-bottom: 30px;
+.hover-img>img:hover{
+    cursor: pointer;
 }
 
+/* section04 끝 */
+
+.section05-img{
+    background: url('../img/05-img.jpg');
+    background-position: top center;
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    height: 860px;
+    width: 100%;
+}
+.section05-txt>h1{
+    font-family: 'NotoSerifKR';
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 40px;
+}
+.section05-background{
+    background-color: rgb(233, 227, 227);
+}
+.section05-img-2>img{
+    width: 650px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section05-txt-2>h1{
+    font-size: 19px;
+    line-height: 40px;
+    font-family: 'NotoSerifKR';
+    padding-top: 260px;
+}
+
+.section06{
+
+}
+.section06-txt{
+    padding-top: 110px;
+}
+.section06-txt>h1{
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+.tab{
+    padding-top: 110px;
+}
+.nav{
+    font-family: 'NotoSerifKR';
+    font-size: 20px; 
+}
+.active>a>h1{
+    font-size: 30px;
+    font-family: 'NotoSerifKR';
+    color: rgb(255, 255, 255);
+}
+.tab-content{
+    padding-bottom: 130px;
+}
+#menu1>h1{
+    font-size: 25px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+#menu2>h1{
+    font-size: 25px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+#menu3>h1{
+    font-size: 25px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+#menu4>h1{
+    font-size: 25px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+#menu5>h1{
+    font-size: 20px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+#menu6>h1{
+    font-size: 20px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+#menu7>h1{
+    font-size: 20px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+.section06-txt2>h1{
+    
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+}
+/* 섹션06 끝 */
+.section07{
+    background-color: rgb(233, 227, 227);
+}
+.section07-txt>h1{
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.section07-txt>h2{
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.section07-img{
+    padding-bottom: 100px;
+}
 
 
 

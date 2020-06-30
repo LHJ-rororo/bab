@@ -382,8 +382,9 @@
     border-radius: 100%;
     border: 1px solid white;
     box-shadow: white 0 0 5px;
-    animation: 1s ease infinite;
-    -webkit-animation: infinite ease;
+    animation: .6s ease infinite;
+    -webkit-animation: .6s infinite ease;
+    cursor: pointer;
 }
 .circle1{
     top: 370px;

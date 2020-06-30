@@ -375,7 +375,41 @@
 .section07-img{
     padding-bottom: 100px;
 }
-
+.circle1,.circle2,.circle3,.circle4,.circle5{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(160, 61, 61);
+    border-radius: 100%;
+    border: 1px solid white;
+    box-shadow: white 0 0 5px;
+    animation: 1s ease infinite;
+    -webkit-animation: infinite ease;
+}
+.circle1{
+    top: 370px;
+    left: 200px;
+    position: absolute;
+}
+.circle2{
+    position: absolute;
+    top: 660px;
+    left: 550px;
+}
+.circle3{
+    position: absolute;
+    top: 700px;
+    left: 750px;
+}
+.circle4{
+    position: absolute;
+    top: 830px;
+    left: 830px;
+}
+.circle5{
+    position: absolute;
+    top: 450px;
+    left: 980px;
+}
 
 
 

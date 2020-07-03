@@ -8,9 +8,11 @@
     <script src="bootstrap/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/css.css">
+    <script src="js/scrolloverflow.min.js"></script>
+   
 </head>
 <body>
-    <div class="section01">
+    <div class="section01" id="fullpage">
         
         <div class="container-fluid">
             <div class="row">
@@ -32,7 +34,7 @@
 
     <!-- 섹션1 -->
 <section>
-<div class="section2" style="padding-bottom: 120px;">
+<div class="section2" style="padding-bottom: 120px;" id="fullpage">
     <div class="container">
         <div class="row">
             <div class="section2-main-txt">Exterior Colors<br>
@@ -355,17 +357,7 @@
     </div>
 </div>
 
-    <div class="section05">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 section05-img">
-                    <div class="section05-txt">
-                        <h1>한국적인 여백의 미와 품격을 강조하여 와이드한 실내공간</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+<div class="section05">
         <div class="container-fluid section05-background">
             <div class="row">
                 <div class="col-sm-6 text-center section05-img-2">
@@ -378,68 +370,70 @@
             </div>
         </div>
 
-    <div class="section06">
-        <div class="container">
-            <div class="section06-txt text-center">
-                <h1>Interior Colors</h1>
-            </div>
-            <div class="tab">
-                <ul class="nav nav-pills">
-                    <li class="active"><a href="#meun1" data-toggle="pill">
-                        <h3>블랙원톤</h3></a></li>
-                    <li><a href="#menu2" data-toggle="pill"><h3>블랙원톤</h3></a></li>
-                    <li><a href="#menu3" data-toggle="pill"><h3>버건디</h3></a></li>
-                    <li><a href="#menu4" data-toggle="pill"><h3>웜그레이</h3></a></li>
-                </ul>
-                <!-- tab nav -->
-                <div class="tab-content">
-                    <div id="menu1" class="tab-pane in active fade">
-                        <img src="img/05-seat2.webp">
-                        <h1>(인조가죽 시트 / Cross metal / 니트)</h1>
 
-    
-                    </div>
-                    <div id="menu2" class="tab-pane fade">
-                        <img src="img/05-seat1.webp">
-                        <h1>(가죽 시트 / Cross hatch / 멜란지)</h1>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                        <img src="img/05-seat3.webp">
-                        <h1>(나파가죽 시트 / Cloth look / 스웨이드)</h1>
-                    </div>
-                    <div id="menu4" class="tab-pane fade">
-                        <img src="img/05-seat4.webp">
-                        <h1>(나파가죽 시트 / Beech wood / 스웨이드)</h1>
+        <div class="section06">
+            <div class="container">
+                <div class="section06-txt text-center">
+                    <h1>Interior Colors</h1>
+                </div>
+                <div class="tab">
+                    <ul class="nav nav-pills">
+                        <li class="active"><a href="#meun1" data-toggle="pill">
+                            <h3>블랙원톤</h3></a></li>
+                        <li><a href="#menu2" data-toggle="pill"><h3>블랙원톤</h3></a></li>
+                        <li><a href="#menu3" data-toggle="pill"><h3>버건디</h3></a></li>
+                        <li><a href="#menu4" data-toggle="pill"><h3>웜그레이</h3></a></li>
+                    </ul>
+                    <!-- tab nav -->
+                    <div class="tab-content">
+                        <div id="menu1" class="tab-pane in active fade">
+                            <img src="img/05-seat2.webp">
+                            <h1>(인조가죽 시트 / Cross metal / 니트)</h1>
+
+        
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <img src="img/05-seat1.webp">
+                            <h1>(가죽 시트 / Cross hatch / 멜란지)</h1>
+                        </div>
+                        <div id="menu3" class="tab-pane fade">
+                            <img src="img/05-seat3.webp">
+                            <h1>(나파가죽 시트 / Cloth look / 스웨이드)</h1>
+                        </div>
+                        <div id="menu4" class="tab-pane fade">
+                            <img src="img/05-seat4.webp">
+                            <h1>(나파가죽 시트 / Beech wood / 스웨이드)</h1>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    <div class="container-fluid section06-img ">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="section06-txt2"><h1>캘리그래피 전용</h1></div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <img src="img/05-seat5.webp">
-                        <div class="section06-txt2-2">
-                        <h1>블랙 원톤</h1><br>
-                        퀼팅 나파가죽 시트 / Glossy black metal / 스웨이드
-                        </div> 
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/05-seat6.webp">
-                        <div class="section06-txt2-2">
-                            <h1>카키</h1><br>
-                            퀼팅 나파가죽 시트 / Cross check / 스웨이드
-                            </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/05-seat7.webp">
-                        <div class="section06-txt2-2">
-                            <h1>베이지</h1><br>
-                            퀼팅 나파가죽 시트 / Diamond / 스웨이드
-                            </div>
+        <div class="container-fluid section06-img ">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="section06-txt2"><h1>캘리그래피 전용</h1></div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="img/05-seat5.webp">
+                            <div class="section06-txt2-2">
+                            <h1>블랙 원톤</h1><br>
+                            퀼팅 나파가죽 시트 / Glossy black metal / 스웨이드
+                            </div> 
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/05-seat6.webp">
+                            <div class="section06-txt2-2">
+                                <h1>카키</h1><br>
+                                퀼팅 나파가죽 시트 / Cross check / 스웨이드
+                                </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/05-seat7.webp">
+                            <div class="section06-txt2-2">
+                                <h1>베이지</h1><br>
+                                퀼팅 나파가죽 시트 / Diamond / 스웨이드
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -579,9 +573,20 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                
-                
+                <div class="section08-txt"><h1>Convenience</h1>
+                    <h2>다양한 첨단 편의사양 적용</h2>
+                    <h3>후석 승객을 위한 후석 대화/취침모드 기능,<br> 고속도로 주행 보조 및 액티브 노이즈 컨트롤 등<br> 다양한 첨단 편의사양을 갖추었습니다.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 section08-img">
+                        <img src="img/08-img2.webp">
+                    </div>
+                    <div class="col-sm-6">
+                        
+                    </div>
+                </div>
             </div>
+            
         </div>
     </div>
 </div>
@@ -590,7 +595,7 @@
 
     
 
-
+<script src="js/fullpage.min.js"></script>
 <script src="js/js.js"></script>
 </body>
 </html>

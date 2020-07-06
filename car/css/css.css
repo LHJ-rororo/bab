@@ -470,6 +470,10 @@
     height: 550px;
     background-repeat: no-repeat;
 }
+.section08-txt{
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
 .section08-txt>h1{
     color: rgb(211, 211, 211);
     letter-spacing: 20px;
@@ -494,9 +498,142 @@
     letter-spacing: 5px;
 }
 .section08-img>img{
-    padding-top: 360px;
-    width: 700px;
+    width: 550px;
 }
+.section08-txt2{
+    padding-bottom: 100px;
+}
+.section08-txt2>h1{
+    font-family: 'NotoSerifKR';
+    font-size: 25px;
+    font-weight: bold;
+}
+.section08-txt2>h2{
+    font-family: 'NotoSerifKR';
+    font-size: 16px;
+    line-height: 30px;
+}
+.section08-txt2>h3{
+    font-family: 'NotoSerifKR';
+    font-size: 15px;
+    line-height: 30px;
+}
+.section08-txt3>h1{
+    font-family: 'NotoSerifKR';
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+/* 08끝 */
+
+.section09-any>h1{
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.section09-any>h2{
+    padding-top: 50px;
+    font-family: 'NotoSerifKR';
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.section09-any>h3{
+    
+    font-family: 'NotoSerifKR';
+    font-size: 15px;
+}
+.section09-any>img{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width: 800px;
+}
+/*  */
+.section09-any2{
+    padding-bottom: 100px;
+}
+.section09-any2>h1{
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.section09-any2>h2{
+    font-family: 'NotoSerifKR';
+    line-height: 30px;
+    font-size: 16px;
+    
+}
+.section09-any2>img{
+    width: 700px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.section09-any2>h3{
+    font-family: 'NotoSerifKR'; 
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.section09-any2>h4{
+    font-family: 'NotoSerifKR';
+    font-size: 16px;
+    padding-top: 10px;
+    
+}
+
+.section09-txt{
+    padding-top: 50px;
+    font-family: 'NotoSerifKR';
+}
+.section09-txt>h1{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.section09-txt>h2{
+    font-size: 16px;
+    line-height: 40px;
+}
+.section09-2{
+    background-color: rgb(233, 227, 227);
+}
+.section09-txt2>h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box{
+    
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(175, 175, 175);
+}
+.box>p{
+    font-size: 15px;
+}
+.box>p1{
+    font-size: 30px;
+    color: rgb(43, 81, 151);
+    font-weight: bold;
+}
+.box>img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30px;
+}
+
+.box-09{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.section09-txt2>p{
+    font-size: 15px;
+    padding-top:10px;
+    font-weight: bold;
+}
+
+
 
 
 

@@ -486,9 +486,11 @@
     letter-spacing: 5px;
 }
 .section08-img>img{
-    width: 550px;
+    width: 600px;
+    margin-left: 200px;
 }
 .section08-txt2{
+    padding-top: 50px;
     padding-bottom: 110px;
 }
 .section08-txt2>h1{
@@ -517,6 +519,7 @@
 }
 .section08-txt3>img{
     width: 500px;
+    padding-top: 110px;
 }
 .section08-txt4{
     font-family: 'NotoSerifKR';
@@ -533,7 +536,12 @@
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ08끝ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
-
+.section09{
+    background-color: #e6e3de;
+}
+.section09-any{
+    padding-top: 100px;
+}
 .section09-any>h1{
     font-family: 'NotoSerifKR';
     font-weight: bold;
@@ -552,12 +560,13 @@
 }
 .section09-any>img{
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 110px;
     width: 800px;
 }
 /*  */
 .section09-any2{
-    padding-bottom: 100px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 .section09-any2>h1{
     font-family: 'NotoSerifKR';
@@ -588,9 +597,13 @@
     padding-top: 10px;
     
 }
-
+/* ㅡㅡ */
+.section09-2{
+    background-color: #e6e3de;
+}
 .section09-txt{
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-family: 'NotoSerifKR';
 }
 .section09-txt>h1{
@@ -601,9 +614,7 @@
     font-size: 16px;
     line-height: 40px;
 }
-.section09-2{
-    background-color: #e6e3de;
-}
+
 .section09-txt2>h1{
     font-size: 30px;
     font-weight: bold;
@@ -640,7 +651,71 @@
     padding-top:10px;
     font-weight: bold;
 }
+/* 섹션9 끝 */
+.section10-any{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'NotoSerifKR';
+}
+.section10-any>h1{
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+.section10-any>h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.section10-any>h3{
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.section10-any>h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/*  */
+.section10-2-any{
+    font-family: 'NotoSerifKR';
+    padding-bottom: 100px;
+}
+.section10-2-any>h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.section10-2-any>h2{
+    font-size: 16px;
+    line-height: 30px;
+}
+.section10-2-details>p{
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    padding-bottom: 90px;
+}
+/* 섹션10 끝 */
 
+.section11{
+    background-color: #e6e3de;
+}
+.section11-any{
+    padding-top: 50px;
+    font-family: 'NotoSerifKR';
+}
+.section11-any>h1{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.section11-any>h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.section11-any>h3{
+    font-size: 18px;
+}
 
 
 

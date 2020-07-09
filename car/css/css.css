@@ -174,18 +174,18 @@
 }
 .section03-img{
     background: url('../img/img1-4-1.jpg');
-    background-position: center;
+    /* background-position: center; */
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 670px;
+    height: 60%;
     width: 100%;   
 }
 .section03-txt{
     font-family: 'NotoSerifKR';
     color: rgb(211, 211, 211);
-    padding-top: 250px;
+    padding-top: 15%;
     padding-left: 20px;
-    padding-bottom: 170px;
+    padding-bottom: 5%;
 }
 .section03-txt>h1{
     letter-spacing: 5px;
@@ -222,7 +222,7 @@
 }
 .section04-img{
     background: url('../img/car-in3.jpg');
-    background-position: right center;
+    /* background-position: right center; */
     background-size: 100%;
     background-repeat: no-repeat;
     height: 670px;
@@ -230,7 +230,7 @@
     
 }
 .section04-main-txt{
-    padding-top: 260px;
+    padding-top: 15%;
     
     font-family: 'NotoSerifKR';
     color: rgb(211, 211, 211);
@@ -256,15 +256,7 @@
 
 /* section04 끝 */
 
-.section05-img{
-    background: url('../img/05-img.jpg');
-    background-position: top center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 900px;
-    width: 100%;
-    
-}
+
 .section05-txt{
     font-family: 'NotoSerifKR';
     font-size: 40px;
@@ -278,7 +270,7 @@
     background-color: #e6e3de;
 }
 .section05-img-2>img{
-    width: 650px;
+    width: 70%;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -286,11 +278,9 @@
     font-size: 19px;
     line-height: 40px;
     font-family: 'NotoSerifKR';
-    padding-top: 260px;
+    padding-top: 30%;
 }
 
-
-/* 섹션5끝 */
 
 .tab{
     padding-top: 110px;
@@ -300,7 +290,7 @@
 }
 
 .tab-content{
-    padding-bottom: 130px;
+    padding-bottom: 15%;
 }
 #menu1>h1{
     font-size: 25px;
@@ -322,13 +312,14 @@
     font-family: 'NotoSerifKR';
     font-weight: bold;
 }
+/* 05 끝 */
 .section06-img{
     padding-bottom: 130px;
 }
 .section06-txt2>h1{
     font-family: 'NotoSerifKR';
     font-weight: bold;
-    padding-bottom: 100px;
+    padding-bottom: 8%;
 }
 .section06-txt2-2{
     font-family: 'NotoSerifKR';
@@ -339,7 +330,13 @@
     
     font-family: 'NotoSerifKR';
     font-weight: bold;
-    font-size: 25px;  
+    font-size: 20px;  
+}
+.section06-txt2-2>h2{
+    
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    font-size: 16px;  
 }
 .nav-pills>li{
     width: 20%;
@@ -353,6 +350,7 @@
 /* 섹션06 끝 */
 .section07{
     background-color: #e6e3de;
+    
 }
 .section07-txt{
     padding-top: 20px;
@@ -370,11 +368,11 @@
     font-weight: bold;
     padding-bottom: 50px;
 }
-
 .section07-img{
-    padding-bottom: 100px;
-
+    padding-bottom: 5%;
 }
+
+
 .circle1,.circle2,.circle3,.circle4,.circle5{
     width: 15px;
     height: 15px;
@@ -404,29 +402,29 @@
     }
 
 .circle1{
-    top: 80px;
-    left: 200px;
+    top: 11%;
+    left: 20%;
     position: absolute;
 }
 .circle2{
     position: absolute;
-    top: 390px;
-    left: 550px;
+    top: 55%;
+    left: 55%;
 }
 .circle3{
     position: absolute;
-    top: 425px;
-    left: 735px;
+    top: 60%;
+    left: 77%;
 }
 .circle4{
     position: absolute;
-    top: 535px;
-    left: 835px;
+    top: 77%;
+    left: 87%;
 }
 .circle5{
     position: absolute;
-    top: 150px;
-    left: 980px;
+    top: 20%;
+    left: 101%;
 }
 /*  */
 .vip-txt>h1{
@@ -439,10 +437,7 @@
 .vip2{
     padding-bottom: 130px;
 }
-.vip2-align{
-    padding-top: 0px;
-    padding-left: 100px;
-}
+
 .vip2-img2{
     padding-top: 10px;
 }
@@ -452,25 +447,32 @@
 
 /* section07끝 */
 
-.section08{
+/* .section08{
     background: url(../img/08-img.jpg);
-    background-size: 1950px;
-    height: 600px;
+    background-size: 100%;
+    
+    width: 100%;
     background-repeat: no-repeat;
-}
-.section08-txt{
-    padding-top: 150px;
-    padding-bottom: 245px;
+} */
+
+.section08-txt>img{
+    width: 100%;
+    height: 60%;
 }
 .section08-txt>h1{
+    position: absolute;
+    top: 14%;
+    left: 40%;
     color: rgb(211, 211, 211);
     letter-spacing: 20px;
-    padding-top: 20px;
     font-family: 'NotoSerifKR';
     text-align: center;
     font-weight: bold;
 }
 .section08-txt>h2{
+    position: absolute;
+    top: 20%;
+    left: 41%;
     color: rgb(211, 211, 211);
     font-size: 25px;
     text-align: center;
@@ -478,6 +480,9 @@
     letter-spacing: 10px;
 }
 .section08-txt>h3{
+    position: absolute;
+    top: 30%;
+    left: 38%;
     color: rgb(211, 211, 211);
     font-size: 20px;
     text-align: center;
@@ -486,12 +491,13 @@
     letter-spacing: 5px;
 }
 .section08-img>img{
-    width: 600px;
-    margin-left: 200px;
+    padding-top: 9%;
+    width: 90%;
+    
 }
 .section08-txt2{
-    padding-top: 50px;
-    padding-bottom: 110px;
+   padding-top: 10%;
+    padding-bottom:10%;
 }
 .section08-txt2>h1{
     font-family: 'NotoSerifKR';
@@ -540,9 +546,11 @@
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ08끝ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 .section09{
     background-color: #e6e3de;
+    margin-top: 1%;
+    padding-bottom: 3%;
 }
 .section09-any{
-    padding-top: 100px;
+    padding-top: 10%;
 }
 .section09-any>h1{
     font-family: 'NotoSerifKR';
@@ -562,8 +570,12 @@
 }
 .section09-any>img{
     padding-top: 50px;
-    padding-bottom: 110px;
+    padding-bottom: 2%;
     width: 800px;
+}
+.section09-any>p{
+    font-family: 'NotoSerifKR';
+    font-size: 16px;
 }
 /*  */
 .section09-any2{
@@ -605,7 +617,7 @@
 }
 .section09-txt{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
     font-family: 'NotoSerifKR';
 }
 .section09-txt>h1{
@@ -631,7 +643,7 @@
 .box>p{
     font-size: 15px;
 }
-.box>p1{
+.box>h1{
     font-size: 30px;
     color: rgb(43, 81, 151);
     font-weight: bold;
@@ -703,9 +715,7 @@
 }
 /* 섹션10 끝 */
 
-.section11{
-    /* background-color: #e6e3de; */
-}
+
 .section11-any{
     padding-top: 50px;
     font-family: 'NotoSerifKR';
@@ -791,12 +801,16 @@
 .slide-txt{
     font-family: 'NotoSerifKR';
 }
+
 .slide-txt>h1{
     padding-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
 }
 .slide-txt>h2{
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 30px;
+    
 }
 .section12-2{
     background-color: #e6e3de;
@@ -982,11 +996,12 @@ p4{
     .section01{
         width: 100%;
         height: 100vh;
+        background-position: left;
     }
     .main-title{
         text-align: center;
         font-size: 40px;
-        letter-spacing: 30px;   
+        letter-spacing: 20px;   
     }
     .main-title-2{
         font-size: 25px;
@@ -995,13 +1010,15 @@ p4{
     }
     .main-title-3{
         font-size: 18px;
-        letter-spacing: 4px;
+        letter-spacing: 5px;
         line-height: 25px;
         padding-top: 30px;
     }
     .main-title-4{
         position: absolute;
+        left: 20px;
         top: 280px;
+        text-align: center;
         letter-spacing: 2px;
         font-size: 15px;
     }
@@ -1033,9 +1050,308 @@ p4{
     .bottom-box{
         height: 180px;
     }
+    .section2{
+        margin-bottom: -80px;
+    }
+    /* 섹션2끝 */
+    
+    .section03-txt>h1{
+        font-size: 20px;
+        letter-spacing: -0.5px;
+    }
+    .section03-txt>h2{
+        font-size: 16px;
+        letter-spacing: -0.5px;
+    }
+    /* 03끝 */
+    .section04-main-txt>h1{
+        font-size: 20px;
+        letter-spacing: -0.8px;
+    }
+    .section04-main-txt>h2{
+        font-size: 16px;
+        letter-spacing: -0.5px;
+    }
+    .section05-img-2>img{
+        width: 100%;
+    }
+    .section05-txt-2{
+        margin-top: -40%;
+    }
+    .section05-txt-2>h1{
+        font-size: 16px;
+    }
+    /* 05끝 */
+    .nav-pills>li{
+        width: 100%;
+        text-align: center;
+    }
+    .tab-content>#menu1>img{
+        width: 100%;
+    }
+    .tab-content>#menu2>img{
+        width: 100%;
+    }
+    .tab-content>#menu3>img{
+        width: 100%;
+    }
+    .tab-content>#menu4>img{
+        width: 100%;
+    }
+    .tab-content>#menu1>h1{
+        padding-top: 5%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .tab-content>#menu2>h1{
+        padding-top: 5%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .tab-content>#menu3>h1{
+        padding-top: 5%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .tab-content>#menu4>h1{
+        padding-top: 5%;
+        font-size: 16px;
+        text-align: center;
+    }
+    /* ------- */
+    .section07-img>img{
+        width: 100%;
+    }
+    .circle1{
+        left: 15%;
+    }
+    .circle2{
+        top: 55%;
+        left: 45%;
+    }
+    .circle3{
+        top: 61%;
+        left: 65%;
+    }
+    .circle4{
+        top: 80%;
+        left: 71%;
+    }
+    .circle5{
+        top: 20%;
+        left: 85%;
+    }
+    .vip2-img1>img{
+        width: 100%;
+        text-align: center;
+    }
+    .vip2-img2>img{
+        width: 100%;
+    }
+    .vip-txt{
+        padding-bottom: 10%;
+    }
+    /* 07끝 */
+    .section08-txt>h3{
+        padding-top: 2%;
+        letter-spacing: -1px;
+    }
+    .section08-txt>h1{
+        font-size: 20px;
+        top: 5%;
+        left: 16%;
+    }
+    .section08-txt>h2{
+        font-size: 18px;
+        top: 9%;
+        left: 16%;
+    }
+    .section08-txt>h3{
+        display: none;
+    }
+    .section08-img>img{
+        margin-top: -5%;
+        width: 100%;
+    }
+    .section08-txt2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .section08-txt2>h1{
+        margin-top: -5%;
+    }
+    .section08-txt3>img{
+        width: 60%;
+        margin-top: -20%;
+    }
+    .section08-txt3{
+        display: flex;
+    }
+    .section08-txt3>h1{
+        padding-left: 10%;
+        padding-top: 7%;
+    }
+    .section08-txt4>img{
+        width: 100%;
+        padding-top: 12%;
+    }
+    .section08-txt4>h1,h2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .section08-txt4{
+        margin-top: -10%;
+        margin-bottom: -30%;
+    }
+    /* 08끝 */
+    .section09{
+        margin-top: 15%;
+        padding-bottom: 10%;
+    }
+    .section09-any>h2{
+        margin-top: -9%;
+        letter-spacing: -1px;
+        font-size: 20px;
+        padding-bottom: 1%;
+    }
+    .section09-any>h3{
+        letter-spacing: 2.5px;
+    }
+    .section09-any>img{
+        width: 100%;
+    }
+    .section09-any>p{
+        padding-top: 2%;
+    }
+    .section09-any2>img{
+        width: 100%;
+    }
+    .section09-any2>h1{
+        margin-top: -5%;
+        padding-bottom: 5%;
+    }
+    .section09-any2>h3{
+        padding-top: 5%;
+    }
+    .section09-any2>h4{
+        margin-left: 3%;
+        margin-right: 3%;
+        line-height: 25px;
+        margin-bottom: -9%;
+    }
+    .section09-txt{
+        margin-top: -8%;
+    }
+    .section09-txt>h1{
+        font-size: 30px;
+    }
+    .section09-txt>h2{
+        font-size: 14px;
+        padding-bottom: 5%;
+    }
+    .section09-txt2>h1{
+        font-size: 25px;
+    }
+    .section09-txt2>p{
+        padding-bottom: 5%;
+    }
+    /* 09끄,ㅌ */
+    .section10-any>h1{
+        margin-bottom: -5%;
+    }
+    .section10-any>h3{
+        margin-left: 3%;
+        margin-right: 3%;
+        letter-spacing: 1px;
+        margin-bottom: -5%;
+        line-height: 25px;
+    }
+    .section10-any>img{
+        width: 100%;
+    }
+    .section10-any>h5{
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .section10-any{
+        margin-bottom: -9%;
+    }
+    .section10-2-details>p{
+        font-size: 30px;
+        margin-bottom: -8%;
+        margin-left: 3%;
+    }
+    .section10-2-any>img{
+        width: 100%;
+    }
+    .section10-2-any>h1{
+        padding-top: 2%;
+        margin-left: 3%;
+    }
+    .section10-2-any{
+        margin-bottom: -12%;
+    }
+    /* 10끝 */
+    .section11-any>h1{
+        font-size: 30px;
+        margin-bottom: -5%;
+    }
+    .section11-any>h2{
+        font-size: 20px;
+    }
+    .section11-any>h3{
+        font-size: 16px;
+    }
+    .video-1{
+        width: 100%;
+    }
+    .video-img{
+        width: 100%;
+    }
+    .tab-2>li>a>h3{
+        font-size: 50px;
+    }
+    
+
+    
+
+
+
+    
+
+
+
     
 }
 
+/* 슬라이드 */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
 
 

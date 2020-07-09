@@ -103,4 +103,11 @@ $(function(){
 });
 
 // 
+$(function(){
+    $('.video-1').click(function(){
+        $('.video-img').hide();
+    })
+})
+// 
+
 

@@ -244,7 +244,7 @@ html, body {
 #section04{
     width:100%; 
  
-    background:rgb(255, 255, 255);
+    background:rgb(245, 240, 236);
 }
 
 .sec04-row{
@@ -304,6 +304,7 @@ html, body {
     background: burlywood;
     width: 180px;  
     border-radius: 10px;
+    
 }
 
 .event{
@@ -338,10 +339,10 @@ html, body {
 .event>p>span{
     font-weight: bold;
 }
-.line-04{
-    border-bottom: 3px solid rgb(184, 184, 184);
+/* .line-04{
+    border-bottom: 1px solid rgb(184, 184, 184);
     padding-top: 10%;
-}
+} */
 
     /* ㅡㅡㅡㅡㅡㅡ section04 ㅡㅡㅡㅡㅡㅡㅡ끝 */
     

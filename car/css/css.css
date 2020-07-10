@@ -198,6 +198,10 @@
 
 
 
+
+
+
+
 /* modal */
 
 .modal-dialog>img{
@@ -789,11 +793,20 @@
     padding-bottom: 110px;
 }
 /* 12-------------- */
+.in-title2{
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+.in-second>p{
+    font-family: 'NotoSerifKR';
+    font-size: 20px;
+}
 .swiper-wrapper{
     padding-top: 50px;
 }
 .swiper-slide>img{
-    width: 600px;
+    width: 40%;
 }
 .slide-txt{
     font-family: 'NotoSerifKR';
@@ -801,7 +814,7 @@
 
 .slide-txt>h1{
     padding-top: 30px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 .slide-txt>h2{
@@ -1458,9 +1471,7 @@ p4{
     .swiper-slide>img{
         width: 100%;
     }
-    .swiper-pagination{
-     
-    }
+    
     /* ?? */
     .section13{
         margin-top: -10%;
@@ -1614,6 +1625,18 @@ p4{
     -webkit-align-items: center;
     align-items: center;
   }
+  .swiper-slide{
+    display: block;
+}
+
+
+.swiper-wrapper{
+   position: relative;
+}
+
+.swiper-slide{
+   position: absolute;
+}
 
 
 

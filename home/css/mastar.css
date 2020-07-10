@@ -332,7 +332,9 @@ html, body {
 .kan>img{
     width: 300px;
 }
-
+.event{
+    font-family: 'MapoGoldenPier';
+}
 .event>p{
     line-height: 30px;
     padding-top: 3%;

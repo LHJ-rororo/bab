@@ -332,10 +332,12 @@ html, body {
 .kan>img{
     width: 300px;
 }
+
 .event>p{
     line-height: 30px;
     padding-top: 3%;
     font-size: 18px;
+    font-family: 'MapoGoldenPier';
 }
 .event>p>span{
     font-weight: bold;

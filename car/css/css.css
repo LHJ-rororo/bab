@@ -213,6 +213,7 @@
 }
 
 
+
 /* section03 끝 */
 
 
@@ -449,13 +450,7 @@
 
 /* section07끝 */
 
-/* .section08{
-    background: url(../img/08-img.jpg);
-    background-size: 100%;
-    
-    width: 100%;
-    background-repeat: no-repeat;
-} */
+
 
 .section08-txt>img{
     width: 100%;
@@ -1173,7 +1168,7 @@ p4{
         padding-top: 5%;
         font-size: 20px;
         letter-spacing: -0.5px;
-            
+
     }
     .section05-img-2>img{
         width: 100%;

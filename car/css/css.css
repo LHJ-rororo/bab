@@ -174,10 +174,10 @@
 }
 .section03-img{
     background: url('../img/img1-4-1.jpg');
-    /* background-position: center; */
-    background-size: 100%;
+    background-position: center;
+    height: 65vh;
     background-repeat: no-repeat;
-    height: 60%;
+    
     width: 100%;   
 }
 .section03-txt{
@@ -188,6 +188,7 @@
     padding-bottom: 5%;
 }
 .section03-txt>h1{
+    
     letter-spacing: 5px;
 }
 .section03-txt>h2{
@@ -222,10 +223,10 @@
 }
 .section04-img{
     background: url('../img/car-in3.jpg');
-    /* background-position: right center; */
-    background-size: 100%;
+    background-position:center;
+    
     background-repeat: no-repeat;
-    height: 670px;
+    height: 65vh;
     width: 100%;
     
 }
@@ -425,6 +426,7 @@
     position: absolute;
     top: 20%;
     left: 101%;
+    cursor: pointer;
 }
 /*  */
 .vip-txt>h1{
@@ -636,7 +638,7 @@
 
 .box{
     
-    width: 300px;
+    width: 100%;
     height: 150px;
     border: 2px solid rgb(175, 175, 175);
 }
@@ -884,7 +886,7 @@
 .box-14>h1{
     text-align: center;
     font-family: 'NotoSerifKR';
-    padding-top: 30px;
+    padding-top: 15%;
     font-size: 16px;
     font-weight: bold;
 }
@@ -897,7 +899,7 @@
 .box-14-2>h1{
     text-align: center;
     font-family: 'NotoSerifKR';
-    padding-top: 20px;
+    padding-top: 10%;
     font-size: 16px;
     font-weight: bold;
 }
@@ -910,7 +912,7 @@
 .box-14-3>h1{
     text-align: center;
     font-family: 'NotoSerifKR';
-    padding-top: 20px;
+    padding-top: 10%;
     font-size: 16px;
     font-weight: bold;
 }
@@ -923,7 +925,7 @@
 .box-14-4>h1{
     text-align: center;
     font-family: 'NotoSerifKR';
-    padding-top: 20px;
+    padding-top: 10%;
     font-size: 16px;
     font-weight: bold;
 }
@@ -936,7 +938,7 @@
 .box-14-5>h1{
     text-align: center;
     font-family: 'NotoSerifKR';
-    padding-top: 30px;
+    padding-top: 15%;
     font-size: 16px;
     font-weight: bold;
 }
@@ -987,11 +989,97 @@ p4{
     line-height: 30px;
     
 }
+.section15{
+    background-color: #e6e3de;
+    padding-bottom: 10%;
+}
+.section15-txt>h1{
+    font-size: 30px;
+    font-family: 'NotoSerifKR';
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.box-15{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.box-15>img{
+    width: 40%;
+    padding-left: 5%;
+}
+.section15-txt2{
+    font-family: 'NotoSerifKR';
+}
+.section15-txt2>h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section15-txt2>h1>span{
+    color: rgb(69, 69, 136);
+    
+}
+.section15-txt2>h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(112, 112, 112)
+}
+.section15-txt2>h2>span{
+    color: #000;
+    padding-left: 5%;
+}
+.box-15-2{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.section15-txt3{
+    font-family: 'NotoSerifKR';
+}
+.section15-txt3>h1{
+    font-size: 25px;
+}
+.section15-txt3>h2{
+    font-size: 20px;
+}
+.section15-txt3>h3{
+    font-size: 20px;
+}
+.section15-txt3>h3>span{
+    font-weight: bold;
+
+}
+.box-15-2>img{
+    width: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section15-cursor{
+    cursor: pointer;
+}
+.section15-1{
+    background-color: #023568;
+    padding-bottom: 5%;
+}
+.footer>img{
+    width: 6%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.section15-txt4>p{
+    color: #fff;
+    cursor: pointer;
+}
+.section15-txt4{
+    font-family: 'NotoSerifKR';
+    font-size: 16px;
+    line-height: 30px;
+}
 
 
-
-
-
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 @media(max-width: 768px){
     .section01{
         width: 100%;
@@ -1054,23 +1142,38 @@ p4{
         margin-bottom: -80px;
     }
     /* 섹션2끝 */
-    
+    .section03-txt{
+        padding-top: 40%;
+    }
     .section03-txt>h1{
-        font-size: 20px;
-        letter-spacing: -0.5px;
+        font-size: 30px;
+        
+        letter-spacing: -0.1px;
     }
     .section03-txt>h2{
-        font-size: 16px;
+        padding-top: 10%;
+        font-size: 20px;
         letter-spacing: -0.5px;
+    }
+    .hover-img{
+        width: 97%;
+    }
+    .modal-dialog>img{
+        width: 461px;
     }
     /* 03끝 */
+    .section04-main-txt{
+        padding-top: 40%;
+    }
     .section04-main-txt>h1{
-        font-size: 20px;
-        letter-spacing: -0.8px;
+        font-size: 30px;
+        letter-spacing: -0.2px;
     }
     .section04-main-txt>h2{
-        font-size: 16px;
+        padding-top: 5%;
+        font-size: 20px;
         letter-spacing: -0.5px;
+            
     }
     .section05-img-2>img{
         width: 100%;
@@ -1119,6 +1222,9 @@ p4{
         text-align: center;
     }
     /* ------- */
+    .section06-img2>img{
+        width: 93%;
+    }
     .section07-img>img{
         width: 100%;
     }
@@ -1142,11 +1248,10 @@ p4{
         left: 85%;
     }
     .vip2-img1>img{
-        width: 100%;
-        text-align: center;
+        width: 93%;
     }
     .vip2-img2>img{
-        width: 100%;
+        width: 93%;
     }
     .vip-txt{
         padding-bottom: 10%;
@@ -1169,6 +1274,9 @@ p4{
     .section08-txt>h3{
         display: none;
     }
+    .section08-txt>img{
+        padding-top: 4%;
+    }
     .section08-img>img{
         margin-top: -5%;
         width: 100%;
@@ -1183,6 +1291,7 @@ p4{
     .section08-txt3>img{
         width: 60%;
         margin-top: -20%;
+        margin-left: 1%;
     }
     .section08-txt3{
         display: flex;
@@ -1255,6 +1364,12 @@ p4{
     .section09-txt2>p{
         padding-bottom: 5%;
     }
+    .section09-txt2>img{
+        width: 90%;
+    }
+    .box{
+        width: 48.5%;
+    }
     /* 09끄,ㅌ */
     .section10-any>h1{
         margin-bottom: -5%;
@@ -1312,7 +1427,159 @@ p4{
     .tab-2>li>a>h3{
         font-size: 50px;
     }
-    
+    .p-video>h1{
+        font-size: 18px;
+    }
+    /* 11------------------------- */
+    .logo-background{
+        height: 220px;
+    }
+    .logo-background>img{
+        margin-top: -5%;
+    }
+    .logo-background>h1{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .section-any>h1{
+        font-size: 30px;
+    }
+    .section12-img>img{
+        width: 94%;
+    }    
+    .section12-txt>p{
+        margin-top: -5%;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .section12-all{
+        margin-bottom: -10%;
+    }
+    .swiper-slide{
+        display: inline-block;
+    }
+    .swiper-slide>img{
+        width: 100%;
+    }
+    .swiper-pagination{
+     
+    }
+    /* ?? */
+    .section13{
+        margin-top: -10%;
+    }
+    .section13-img>img{
+        width: 100%;
+    }
+    .section13-2-img>img{
+        width: 100%;
+    }
+    .section13-txt2>p{
+        margin-top: -15%;
+        margin-left: 3%;
+        margin-right: 3%;
+        line-height: 25px;
+    }
+    .section13-2-txt>h1{
+        margin-top: -5%;
+    }
+    .section13-2-txt2>p{
+        margin-top: -2%;
+        line-height: 25px;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: -2%;
+    }
+    .order>h1{
+        font-size: 30px;
+        margin-top: -5%;
+    }
+    .box-14>h1{
+        
+        font-size: 14px;
+    }
+    .box-14-2>h1{
+        font-size: 14px;
+        
+    }
+    .box-14-3>h1{
+        font-size: 14px;
+    }
+    .box-14-4>h1{
+        font-size: 14px;
+    }
+    .box-14-5>h1{
+        font-size: 14px;
+    }
+    .order-box{
+        
+        display: inline;
+    }
+    .down1>img{
+        position: absolute;
+        top: 32.2%;
+        left: 47%;
+    }
+    .down2>img{
+        position: absolute;
+        top: 45.7%;
+        left: 47%;
+    }
+    .down3>img{
+        position: absolute;
+        top: 59.5%;
+        left: 47%;
+    }
+    .down4>img{
+        position: absolute;
+        top: 73%;
+        left: 47%;
+    }
+    .pp{
+        display: none;
+    }
+    .box-margin{
+        margin: 0 auto;
+    }
+    /*  */
+    .box-15>img{
+        width: 30%;
+        height: 30%;
+        padding-top: 5%;
+    }
+    .box-15{
+        padding-bottom: 5%;
+    }
+    .box-15-2>img{
+        width: 40%;
+        height: 40%;
+    }
+    .box-15-2{
+        padding-bottom: 5%;
+    }
+    .section15-txt2>h1{
+        font-size: 20px;
+    }
+    .section15-txt2>h2{
+        font-size: 16px;
+        margin-left: -5%;
+    }
+    .section15-txt3>h1{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .section15-txt3>h2{
+        font-size: 16px;
+    }
+    .section15-txt3>h3{
+        font-size: 16px;
+    }
+    .footer>img{
+        width: 10%;
+        padding-top: 5%;
+    }
 
     
 

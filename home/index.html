@@ -393,16 +393,44 @@ jQuery(document).ready(function(){
             jQuery(".navi").slideToggle();
         });
     });
-    </script>
 
-  
-
-
-  
-
-
-  
+$(function(){
+  $('#btn-x').click(function(){
+    $('.popup').hide();
+  });
+});
 
 </script>
+
+  
+
+
+  
+
+
+  
+
+
+
+<div class="popup">
+  <div class="popup-title">
+    <h1>협업 프로젝트</h1>
+  </div>
+  <div class="popup-text">
+    <h1>참여자</h1><br>
+        <p>전숙진</p><br>
+        <p>조서은</p><br>
+        <p>윤승민</p><br>
+        <p>박민정</p><br>
+
+    <h2>100% 사진촬영과 기획을 하였습니다.</h2>
+  </div>
+
+  <div class="btn-close">
+    <button type="button" id="btn-x">X 닫기</button>
+  </div>
+
+</div>
+
 </body>
 </html>

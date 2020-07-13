@@ -208,9 +208,7 @@ html, body {
     font-size: 20px;
 
 }
-.demo-wrapper{
-    display: none;
-}
+
 .demo-wrapper>.brickfolio>.bf-item>h4{
     font-size: 20px;
     font-family: 'MapoGoldenPier';

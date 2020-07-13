@@ -587,6 +587,7 @@
     font-family: 'NotoSerifKR';
     font-weight: bold;
     letter-spacing: 5px;
+    padding-bottom: 1%;
 }
 .section09-any2>h2{
     font-family: 'NotoSerifKR';
@@ -610,6 +611,7 @@
     font-family: 'NotoSerifKR';
     font-size: 16px;
     padding-top: 10px;
+    line-height: 30px;
     
 }
 /* ㅡㅡ */
@@ -634,6 +636,9 @@
     font-size: 30px;
     font-weight: bold;
 }
+.section09-txt2>img{
+    width: 600px;
+}
 
 .box{
     
@@ -650,15 +655,18 @@
     font-weight: bold;
 }
 .box>img{
+    
     padding-top: 10px;
     padding-bottom: 10px;
     width: 30px;
 }
 
 .box-09{
+    
+    width: 100%;
     display: flex;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     
 }
 .section09-txt2>p{
@@ -743,13 +751,16 @@
 }
 .p-video>img{
     position: absolute;
-    top: 380px;
+    top: 397px;
 }
 .tab-2 .nav-pills>li{
     width: 16%;
 }
 .tab-2 .nav-pills>li>a>h3{
     font-size: 16px;
+}
+#menu11>h1{
+    padding-bottom: 3%;
 }
 /* 11끝 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
 .logo-background{
@@ -1069,11 +1080,14 @@ p4{
 }
 .section15-1{
     background-color: #023568;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
+}
+.footer{
+    display: flex;
 }
 .footer>img{
     width: 6%;
-    padding-top: 2%;
+    padding-top: 6%;
     padding-bottom: 5%;
 }
 .section15-txt4>p{
@@ -1081,9 +1095,13 @@ p4{
     cursor: pointer;
 }
 .section15-txt4{
+    padding-top: 6%;
+    padding-left:5%;
     font-family: 'NotoSerifKR';
     font-size: 16px;
     line-height: 30px;
+    display: flex;
+    
 }
 
 
@@ -1430,6 +1448,7 @@ p4{
         width: 100%;
     }
     .video-img{
+        margin-top: -5%;
         width: 100%;
     }
     .tab-2>li>a>h3{

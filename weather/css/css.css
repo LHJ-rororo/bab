@@ -21,7 +21,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    color: white;
+    color: rgb(68, 68, 68);
 }
 h1{
     /* background: #666; */
@@ -44,6 +44,7 @@ section > .w_id{
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 40px;
+    color: rgb(68, 68, 68);
 }
 section > figure, section >.temp{
     /* float: left; */
@@ -53,6 +54,7 @@ section > figure, section >.temp{
 .new-icon > .wi{
     text-align: center;
     font-size: 70px;
+    color: rgb(68, 68, 68);
 }
 .new-icon{
     text-align: center;
@@ -64,6 +66,7 @@ section > figure > img{
 section > .temp{
     font-size: 90px;
     padding-bottom: 3%;
+    color: rgb(68, 68, 68);
     
 }
 aside{
@@ -72,6 +75,7 @@ aside{
 aside > p{
     font-size: 20px;
     text-align: center;
+    color: rgb(68, 68, 68);
     
 }
 

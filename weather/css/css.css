@@ -93,9 +93,19 @@ aside > p{
 
 @media(max-width:767px){
     h1{
-        padding-top: 30%;
+        padding-top: 20%;
     }
     section > .temp{
         padding-bottom: 7%;
     }
+    #time-result{
+        font-size: 25px;
+        position: absolute;
+        top: 75%;
+        left: 15%;
+        text-align: center;
+        text-shadow: 1px 1px 1px #999;
+        color: rgb(68, 68, 68);
+    }
+    
 }

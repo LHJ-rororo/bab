@@ -79,6 +79,15 @@ aside > p{
     
 }
 
+#time-result{
+    font-size: 25px;
+    position: absolute;
+    top: 75%;
+    left: 41%;  
+    text-align: center;
+    text-shadow: 1px 1px 1px #999;
+    color: rgb(68, 68, 68);
+}
 
 /* 로딩이미지 */
 

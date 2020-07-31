@@ -52,12 +52,25 @@
   font-family: 'NotoSerifKR';
   font-size: 25px;
 }
+.header-txt{
+  display: none;
+}
+
+
+
 @media (max-width: 767px){
 .middle-txt>h1{
   font-size: 20px;
 }
 .middle-txt{
   padding-top: 10%;
+}
+.header-txt{
+  color: white;
+  padding-top: 2%;
+  font-family: 'Arita-buri-SemiBold';
+  text-align: center;
+  display: block;
 }
 }
 

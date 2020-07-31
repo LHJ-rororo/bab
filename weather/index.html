@@ -43,6 +43,10 @@
     <div class="time">
         <p id="time-result"></p>
     </div>
+
+    <div id="myTime">
+
+    </div>
     
     
     <script>
@@ -135,7 +139,34 @@ var d = new Date();
  var currentDate = d.getFullYear() + "년 " + ( d.getMonth() + 1 ) + "월 " + d.getDate() + "일"; 
  var currentTime = d.getHours() + "시 " + d.getMinutes() + "분 ";
  var result = document.getElementById("time-result");
- result.innerHTML = "오늘 날짜는 " + currentDate + "<br> 시간은 " + currentTime + " 입니다.";
+ result.innerHTML = currentDate;
+
+//  ---------------------------------------------------------------
+
+ var myTime = document.getElementById('myTime');
+    var d =new Date(),
+    h=d.getHours(),
+    m=d.getMinutes(),
+    s=d.getSeconds();
+    
+    
+    
+
+    //24시간제 ->12시간제 변경
+        var h12 = (h>12) ? (h - 12) :h;
+
+        // 12시간제 -오전오후 판정
+        var ampm = (h<12)?"오전":"오후";
+
+        // 분 2자릿수 표시
+        var min_o = (m<10) ? "0":"";
+
+        // 초 2자릿수 표사
+        var sec_o = (s<10) ? "0": "";
+
+        var time = ampm + ""+h12+":"+min_o+m+":"+sec_o+s;
+        // document.write(time)
+        myTime.innerHTML=time;
 
 
 

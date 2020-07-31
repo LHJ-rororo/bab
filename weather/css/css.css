@@ -83,7 +83,7 @@ aside > p{
     font-size: 25px;
     position: absolute;
     top: 75%;
-    left: 41%;  
+    left: 45%;  
     text-align: center;
     text-shadow: 1px 1px 1px #999;
     color: white;
@@ -96,6 +96,14 @@ aside > p{
     left: 50%;
     top: 50%;
     display: none;
+}
+#myTime{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 1px #999;
+    position: absolute;
+    top: 79%;
+    left: 46%;
 }
 
 
@@ -110,11 +118,19 @@ aside > p{
     #time-result{
         font-size: 25px;
         position: absolute;
-        top: 75%;
-        left: 15%;
+        top: 71%;
+        left: 31%;
         text-align: center;
         text-shadow: 1px 1px 1px #999;
         color: white;
+    }
+    #myTime{
+        font-size: 25px;
+        color: white;
+        text-shadow: 1px 1px 1px #999;
+        position: absolute;
+        top: 76%;
+        left: 36%;
     }
     
 }

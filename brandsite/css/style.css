@@ -38,11 +38,15 @@
   width: 120px;
   height: 50px;
   border-radius: 10px;
-  opacity: .7;
+  opacity: .8;
   font-family: 'NotoSerifKR';
   font-weight: bold;
   cursor: pointer;
   border: none;
+}
+.middle-txt>h1{
+  font-family: 'NotoSerifKR';
+  font-size: 25px;
 }
 
 .flex-center-start {
@@ -568,7 +572,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   color: #1A0D01;
   font-family: 'Arita-buri-SemiBold';

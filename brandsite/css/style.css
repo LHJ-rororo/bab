@@ -44,9 +44,21 @@
   cursor: pointer;
   border: none;
 }
+.middle-txt{
+  padding-top: 5%;
+
+}
 .middle-txt>h1{
   font-family: 'NotoSerifKR';
   font-size: 25px;
+}
+@media (max-width: 767px){
+.middle-txt>h1{
+  font-size: 20px;
+}
+.middle-txt{
+  padding-top: 10%;
+}
 }
 
 .flex-center-start {
@@ -858,7 +870,7 @@ h3 {
 
 /* line 29, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .logo-img {
-  float: right;
+  float: left;
 }
 
 @media (max-width: 767px) {

@@ -2465,6 +2465,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_footer.scss */
 .footer {
+  
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2819,7 +2820,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area {
-  padding-bottom: 115px;
+  /* padding-bottom: 115px; */
   padding-top: 140px;
   background-image: url(../img/banner/burger_bg.png);
   background-size: cover;

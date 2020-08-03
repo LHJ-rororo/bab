@@ -52,9 +52,7 @@
   font-family: 'NotoSerifKR';
   font-size: 25px;
 }
-.header-txt{
-  display: none;
-}
+
 
 
 
@@ -65,13 +63,7 @@
 .middle-txt{
   padding-top: 10%;
 }
-.header-txt{
-  color: white;
-  padding-top: 2%;
-  font-family: 'Arita-buri-SemiBold';
-  text-align: center;
-  display: block;
-}
+
 }
 
 .flex-center-start {

@@ -349,3 +349,13 @@ mailChimp();
         });
 
 })(jQuery);	
+
+
+$('.slider>.slide>img:gt(0)').hide();
+setInterval(function(){
+    $('.slider>.slide>img:first-child').fadeOut('slow').next().fadeIn('slow').end().appendTo('.slider>.slide');
+},4000);
+
+
+
+  

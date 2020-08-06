@@ -84,8 +84,8 @@
 }
 .slide-txt{
   position: absolute;
-  top: 392%;
-  left: 38%;
+  top: 3660px;
+  left: 700px;
   z-index: 2;
 }
 .slide-txt>h1,span{
@@ -131,6 +131,9 @@
   left: 30%;
   line-height: 30px;
 }
+.txt-box2>h3{
+  display: none;
+}
 .line{
  border-bottom: #ac005c solid 1px;
  width: 130px;
@@ -140,6 +143,52 @@
 .event-area{
   padding-top: 10%;
 }
+.event-txt>h1{
+  font-size: 24px;
+  font-family: 'NotoSerifKR';
+  padding-bottom: 20px;
+}
+.event-txt>p{
+  font-size: 18px;
+  font-family: 'NotoSerifKR';
+  line-height: 40px;
+  color: #616161;
+}
+.event-area2{
+  padding-top: 100px;
+ 
+}
+.contact-btn{
+  width: 120px;
+  height: 50px;
+  border: 2px solid #ac005c;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.contact-btn>p{
+  color: #ac005c;
+  padding-top: 6px;
+  font-family: 'NotoSerifKR';
+  font-size: 20px;
+}
+.contact-btn:hover{
+  background-color: #ac005c;
+  transition: .4s;
+ 
+}
+.contact-btn:hover>p{
+  color: #fff;
+  transition: .2s;
+}
+.contact-title>p{
+  font-family: 'NotoSerifKR';
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+
   
 
 
@@ -154,8 +203,8 @@
 }
 .slide-txt{
   position: absolute;
-  top: 540%;
-  left: 25%;
+  top: 4670px;
+  left: 130px;
   z-index: 2;
 }
 .slide-txt>h1{
@@ -177,6 +226,42 @@
   
   height: 150px;
   overflow: hidden;
+}
+.event-2{
+  flex-direction: column-reverse;
+}
+.txt-box{
+  top: 29px;
+  left: 70px;
+}
+.txt-box2{
+  width: 330px;
+  height: 120px;
+ 
+}
+.txt-box2>h1{
+  font-size: 25px;
+}
+.txt-box2>h2{
+  display: none;
+}
+.txt-box2>h3{
+  display: inline;
+  font-size: 16px;
+  padding: 20px;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  color: rgb(37, 37, 37);
+}
+.line{
+  top: 52px;
+}
+.event-area2{
+  margin-top: -55px;
+}
+.event-area{
+  margin-top: -10%;
 }
 }
 
@@ -503,6 +588,7 @@ h3 {
   color: #ac005c !important;
   text-transform: uppercase;
   cursor: pointer;
+  float: right;
 
 }
 
@@ -705,12 +791,13 @@ h3 {
 
 /* line 10, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
 .section_title h3 {
-  font-size: 25px;
+  font-size: 40px;
   /* font-weight: 700; */
   color: #1A0D01;
-  font-family: 'NotoSerifKR';
+  font-family: 'Markazi Text', serif;
+  font-weight: 700;
   text-transform: uppercase;
-  padding-top: 40px;
+  
 }
 
 @media (max-width: 767px) {
@@ -1768,7 +1855,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
 .about_area {
-  padding-bottom: 210px;
+  padding-bottom: 150px;
   padding-top: 150px;
   background-image: url(../img/banner/burger_bg_1.png);
   background-size: cover;
@@ -1780,7 +1867,7 @@ h3 {
   /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
   .about_area {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
   }
 }
 
@@ -2927,8 +3014,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
 .best_burgers_area {
-  /* padding-bottom: 115px; */
-  padding-top: 140px;
+  padding-bottom: 100px;
+  padding-top: 100px;
   background-image: url(../img/banner/burger_bg.png);
   background-size: cover;
   background-position: center center;
@@ -3393,8 +3480,8 @@ h3 {
 /* line 45, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_contact.scss */
 .contact-title {
   font-size: 27px;
-  font-weight: 600;
-  margin-bottom: 20px;
+  color: #222222;
+  margin-bottom: 50px;
   font-family: 'NotoSerifKR';
 }
 

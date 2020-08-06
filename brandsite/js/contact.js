@@ -22,7 +22,7 @@ $(document).ready(function(){
                 },
                 number: {
                     required: true,
-                    minlength: 5
+                    minlength: 11
                 },
                 email: {
                     required: true,
@@ -36,22 +36,23 @@ $(document).ready(function(){
             messages: {
                 name: {
                     required: "성함을 입력하세요.",
-                    minlength: "your name must consist of at least 2 characters"
+                    minlength: "두 글자 이상을 입력해주세요."
                 },
                 subject: {
                     required: "내용을 입력하세요.",
-                    minlength: "your subject must consist of at least 4 characters"
+                    minlength: "네 글자 이상 입력하세요."
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "연락처를 입력해주세요.",
+                    minlength: "열한 자리 숫자를 입력하세요."
                 },
                 email: {
-                    required: "이메일을 입력하세요."
+                    required: "연락처를 입력하세요.",
+                    minlength: "내용을 더 입력하세요."
                 },
                 message: {
                     required: "내용을 입력하세요.",
-                    minlength: "thats all? really?"
+                    minlength: "내용을 더 입력하세요."
                 }
             },
             submitHandler: function(form) {

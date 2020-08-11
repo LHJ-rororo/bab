@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background: url('../img/bgbg.jpg');
+    background-position: cover;
+    height: 5800px;
+    background-repeat: no-repeat;
+}
+.txt-01{
+    padding-top: 10%;
+}
+.txt-01>h1{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+.logo{
+    padding-top: 5%;
+    text-align: center;
+}
+.logo>img{
+    width: 700px;
+    text-align: center;
+}
+.txt-02>h1{
+    padding-top: 5%;
+    color: #fbd200;
+    font-size: 65px;
+    text-align: center;
+}
+.img-01>img{
+    padding-top: 16%;
+}
+.img-02>img{
+    padding-top: 23%
+    /* width: 500px; */
+    
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+.txt-03{
+    text-align: center;
+}
+.txt-03>h1{
+    color: #fff;
+    font-size: 60px;
+    position: absolute;
+    top: 110%;
+    left: 20%;
+}
+.txt-03>h1>span{
+    color: #fbd200;
+}
+/*  */
+.video-area{
+    /* border: 10px solid #fbd200; */
+}
+.video-area>video{
+    width: 100%;
+}
+.txt-04{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+/*  */
+.tab{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+.insta{
+    width: 488px;
+    height: 151px;
+    background-color: #fbd200;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+}
+.insta>img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-top: 45px
+}
+.insta>p{
+    padding-top: 45px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.face{
+    width: 488px;
+    height: 151px;
+    background-color: #fbd200;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+}
+.face>img{
+    width: 80px;
+    height: 80px;
+    margin-right: 3%;
+    margin-left: 10%;
+    margin-top: 30px
+}
+.face>p{
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.tweet{
+    width: 488px;
+    height: 151px;
+    background-color: #fbd200;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+}
+.tweet>img{
+    width: 80px;
+    height: 80px;
+    margin-right: 3%;
+    margin-left: 15%;
+    margin-top: 30px
+}
+.tweet>p{
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+/*  */
+.event-txt>h1, h2,h3{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    
+}
+.event-txt>h1>span{
+    color: #fbd200;
+    font-weight: 700;
+}
+.event-txt>h2>span{
+    color: #fbd200;
+    font-weight: 700;
+}
+.event-txt>h3>span{
+    color: #fbd200;
+    font-weight: 700;
+}
+.event-txt>h3{
+    display: flex;
+}
+.event-txt>h3>p{
+    margin-left: 15px;
+    line-height: 70px;
+}
+.event-txt>h3>span{
+    margin-left: 15px;
+}
+.event-txt>h3>p>span{
+    color: #fbd200;
+}
+/*  */
+.event-img{
+    float: right;
+}
+.event-img1{
+    position: absolute;
+    top: 350%;
+    right: 15%;
+}
+.event-img2{
+    position: absolute;
+    top: 358%;
+    right: 22%;
+}
+.event-img3{
+    position: absolute;
+    top: 363%;
+    right: 20%;
+}
+/*  */
+.join{
+    padding-top: 16%;
+    text-align: center;
+}
+.join>h1{
+    color: #fff;
+    font-size: 60px;
+}
+.line{
+    border-bottom: 4px solid #fbd200; 
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+.join>h2{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.join>h3{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50px;
+}

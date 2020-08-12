@@ -1,9 +1,19 @@
+@font-face {
+    font-family: 'DWImpactamin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/DWImpactamin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+            
+            
 *{
     padding: 0;
     margin: 0;
     list-style: none;
     text-decoration: none;
     color: inherit;
+    font-family: 'DWImpactamin';
+    
 }
 body{
     background: url('../img/bgbg.jpg');
@@ -18,6 +28,7 @@ body{
     color: #fff;
     font-size: 80px;
     text-align: center;
+    
 }
 .logo{
     padding-top: 5%;
@@ -32,6 +43,7 @@ body{
     color: #fbd200;
     font-size: 65px;
     text-align: center;
+    
 }
 .img-01>img{
     padding-top: 16%;
@@ -47,13 +59,16 @@ body{
 }
 .txt-03{
     text-align: center;
+    line-height: 80px;
+    
 }
 .txt-03>h1{
     color: #fff;
     font-size: 60px;
     position: absolute;
     top: 110%;
-    left: 20%;
+    left: 25%;
+    font-weight: 100;
 }
 .txt-03>h1>span{
     color: #fbd200;
@@ -91,12 +106,12 @@ body{
 .insta>img{
     width: 60px;
     height: 60px;
-    margin-right: 10%;
-    margin-left: 8%;
+    margin-right: 5%;
+    margin-left: 14%;
     margin-top: 45px
 }
 .insta>p{
-    padding-top: 45px;
+    padding-top: 55px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -113,11 +128,11 @@ body{
     width: 80px;
     height: 80px;
     margin-right: 3%;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 30px
 }
 .face>p{
-    padding-top: 40px;
+    padding-top: 55px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -132,12 +147,12 @@ body{
 .tweet>img{
     width: 80px;
     height: 80px;
-    margin-right: 3%;
-    margin-left: 15%;
-    margin-top: 30px
+    margin-right: 5%;
+    margin-left: 17%;
+    margin-top: 32px
 }
 .tweet>p{
-    padding-top: 40px;
+    padding-top: 55px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -147,6 +162,7 @@ body{
     font-size: 40px;
     margin-left: 5%;
     margin-bottom: 2%;
+    font-weight: 100;
     
 }
 .event-txt>h1>span{
@@ -162,14 +178,15 @@ body{
     font-weight: 700;
 }
 .event-txt>h3{
-    display: flex;
+    display: inline-block;
 }
 .event-txt>h3>p{
+    margin-top: 2%;
     margin-left: 15px;
     line-height: 70px;
 }
 .event-txt>h3>span{
-    margin-left: 15px;
+    margin-left: 0.5%
 }
 .event-txt>h3>p>span{
     color: #fbd200;
@@ -180,17 +197,17 @@ body{
 }
 .event-img1{
     position: absolute;
-    top: 350%;
+    top: 330%;
     right: 15%;
 }
 .event-img2{
     position: absolute;
-    top: 358%;
+    top: 337%;
     right: 22%;
 }
 .event-img3{
     position: absolute;
-    top: 363%;
+    top: 342%;
     right: 20%;
 }
 /*  */
@@ -201,22 +218,184 @@ body{
 .join>h1{
     color: #fff;
     font-size: 60px;
+    font-weight: 100;
 }
 .line{
     border-bottom: 4px solid #fbd200; 
     width: 300px;
     text-align: center;
     margin: 0 auto;
-    padding-top: 1%;
+    padding-top: 3%;
     margin-bottom: 2%;
 }
 .join>h2{
+    padding-top: 5%;
     font-size: 25px;
-    font-weight: 500;
     line-height: 50px;
+    font-weight: 100;
 }
 .join>h3{
     font-size: 25px;
-    font-weight: 500;
     line-height: 50px;
+    font-weight: 100;
+}
+
+/* 767 */
+
+@media(max-width:767px){
+    body{
+        background: url(../img/m-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 3200px;
+        
+        
+    }
+
+    .header{
+        padding-top: 20%;
+    }
+    .txt-01>h1{
+        font-size: 25px;
+    }
+    .logo>img{
+        width: 90%;
+    }
+    .txt-02>h1{
+        font-size: 25px;
+    }
+    .middle{
+        padding-top: 15%;
+    }
+    .img-01>img{
+        width: 100%;
+    }
+    .img-02>img{
+        width: 100%;
+    }
+    .txt-03>h1{
+        font-size: 16px;
+        position: absolute;
+        top: 63%;
+        line-height: 30px;
+        text-shadow: 1px 1px 1px rgb(82, 82, 82);
+        
+    }
+    .txt-04{
+        font-size: 16px;
+        margin-top: 5%;
+        
+    }
+    .tab{
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+    .tab>li{
+        margin: 1%;
+    }
+    .insta{
+        width: 110%;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .insta>img{
+        width: 20px;
+        height: 20px;
+        margin-top: 17%;
+        margin-left: 1%;
+    }
+    .insta>p{
+        font-size: 16px;
+        margin-top: -21%;
+    }
+    .face{
+        width: 110%;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .face>img{
+        width: 40px;
+        height: 40px;
+        margin-top: 10%;
+        margin-left: 1%;
+    }
+    .face>p{
+        margin-top: -19%;
+        font-size: 16px;
+    }
+    .tweet{
+        width: 110%;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .tweet>img{
+        width: 40px;
+        height: 40px;
+        margin-top: 13%;
+        margin-left: 1%;
+    }
+    .tweet>p{
+        font-size: 16px;
+        margin-top: -21%;
+    }
+    .event-area{
+        line-height: 50px;
+    }
+    .event-txt>h1{
+        font-size: 20px;
+    }
+    .event-txt>h2{
+        font-size: 20px;
+    }
+    .event-txt>h3{
+        font-size: 20px;
+        display: inline;
+    }
+    .event-txt>h3>p{
+        font-size: 18px;
+        line-height: 40px;
+        margin-left: 5%;
+    }
+    .event-txt>h3>span{
+        margin-left: 1%;
+    }
+    /*  */
+    
+    .event-img1{
+        top: 174%;   
+    }
+    .event-img2{
+        top: 185%;   
+        left: 5%;
+    }
+    .event-img2>img{
+        width: 250px;
+    }
+    .event-img3{
+        top: 187%;   
+    }
+    .event-img1>img{
+        width: 100%;
+    }
+    .join{
+        padding-top: 100%;
+    }
+    .line{
+        padding-top: 10%;
+        margin-bottom: 10%;
+    }
+    .join>h2{
+        font-size: 20px;
+        margin-right: 5%;
+        line-height: 40px;
+    }
+    .join>h3{
+        padding-top: 5%;
+        font-size: 18px;
+        line-height: 40px;
+        margin-right: 5%;
+    }
+    
 }

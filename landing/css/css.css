@@ -16,9 +16,9 @@
     
 }
 body{
-    background: url('../img/bgbg.jpg');
+    background: url('../img/bgbg2.jpg');
     background-position: cover;
-    height: 5800px;
+    height: 5250px;
     background-repeat: no-repeat;
 }
 .txt-01{
@@ -166,7 +166,6 @@ body{
     
     margin-bottom: 2%;
     font-weight: 100;
-    
 }
 .event-txt>h1>span{
     color: #fbd200;
@@ -206,7 +205,7 @@ body{
 }
 /*  */
 .join{
-    padding-top: 16%;
+    padding-top: 50px;
     text-align: center;
 }
 .join>h1{
@@ -214,16 +213,16 @@ body{
     font-size: 60px;
     font-weight: 100;
 }
-.line{
+/* .line{
     border-bottom: 4px solid #fbd200; 
     width: 300px;
     text-align: center;
     margin: 0 auto;
     padding-top: 3%;
     margin-bottom: 2%;
-}
+} */
 .join>h2{
-    padding-top: 5%;
+    padding-top: 50px;
     font-size: 25px;
     line-height: 50px;
     font-weight: 100;
@@ -238,7 +237,7 @@ body{
 
 @media(max-width:767px){
     body{
-        background: url(../img/m-bg.jpg);
+        background: url(../img/m-bg2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         height: 3200px;   
@@ -359,9 +358,17 @@ body{
     }
     /* event txt end */
     
-    .event-img>img{
-        width: 100%;
+    .event-img{
         margin-top: 30px;
+        background-color: rgba(255, 255, 255, 0.521);
+        text-align: center;
+        height: 340px;
+
+    }
+    .event-img>img{
+        width: 400px;
+        
+        text-align: center;
     }
    /* event end */
     .join{

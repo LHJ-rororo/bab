@@ -85,7 +85,7 @@ body{
     font-size: 30px;
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 2%;
+    margin-left: 5%;
 }
 /*  */
 .tab{
@@ -157,10 +157,13 @@ body{
     font-weight: 700;
 }
 /*  */
+.event-txt{
+    margin-left: 5%;
+}
 .event-txt>h1, h2,h3{
     color: #fff;
     font-size: 40px;
-    margin-left: 5%;
+    
     margin-bottom: 2%;
     font-weight: 100;
     
@@ -182,7 +185,7 @@ body{
 }
 .event-txt>h3>p{
     margin-top: 2%;
-    margin-left: 15px;
+    
     line-height: 70px;
 }
 .event-txt>h3>span{
@@ -192,23 +195,14 @@ body{
     color: #fbd200;
 }
 /*  */
-.event-img{
-    float: right;
+.event-img>img{
+    width: 600px;
+    
+    
 }
-.event-img1{
-    position: absolute;
-    top: 330%;
-    right: 15%;
-}
-.event-img2{
-    position: absolute;
-    top: 337%;
-    right: 22%;
-}
-.event-img3{
-    position: absolute;
-    top: 342%;
-    right: 20%;
+.event-area{
+    display: flex;
+    /* justify-content: space-between; */
 }
 /*  */
 .join{
@@ -247,13 +241,11 @@ body{
         background: url(../img/m-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        height: 3200px;
-        
-        
+        height: 3200px;   
     }
 
     .header{
-        padding-top: 20%;
+        padding-top: 50px;
     }
     .txt-01>h1{
         font-size: 25px;
@@ -265,7 +257,7 @@ body{
         font-size: 25px;
     }
     .middle{
-        padding-top: 15%;
+        padding-top: 50px;
     }
     .img-01>img{
         width: 100%;
@@ -276,7 +268,7 @@ body{
     .txt-03>h1{
         font-size: 16px;
         position: absolute;
-        top: 63%;
+        top: 500px;
         line-height: 30px;
         text-shadow: 1px 1px 1px rgb(82, 82, 82);
         
@@ -340,8 +332,12 @@ body{
         font-size: 16px;
         margin-top: -21%;
     }
+    /* tab end */
     .event-area{
         line-height: 50px;
+    }
+    .event-area{
+        display: inline;
     }
     .event-txt>h1{
         font-size: 20px;
@@ -356,46 +352,39 @@ body{
     .event-txt>h3>p{
         font-size: 18px;
         line-height: 40px;
-        margin-left: 5%;
+        margin-top: -1%;
     }
     .event-txt>h3>span{
         margin-left: 1%;
     }
-    /*  */
+    /* event txt end */
     
-    .event-img1{
-        top: 174%;   
-    }
-    .event-img2{
-        top: 185%;   
-        left: 5%;
-    }
-    .event-img2>img{
-        width: 250px;
-    }
-    .event-img3{
-        top: 187%;   
-    }
-    .event-img1>img{
+    .event-img>img{
         width: 100%;
+        margin-top: 30px;
     }
+   /* event end */
     .join{
-        padding-top: 100%;
+        padding-top: 100px;
+        
     }
     .line{
-        padding-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .join>h2{
-        font-size: 20px;
-        margin-right: 5%;
+        font-size: 23px;
+        margin-right: 15px;
+        margin-left: 15px;
         line-height: 40px;
     }
     .join>h3{
         padding-top: 5%;
         font-size: 18px;
         line-height: 40px;
-        margin-right: 5%;
+        margin-right: 15px;
+        margin-left: 15px;
+        
     }
     
 }

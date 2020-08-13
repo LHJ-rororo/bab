@@ -363,6 +363,7 @@ body{
         background-color: rgba(255, 255, 255, 0.521);
         text-align: center;
         height: 340px;
+        border: 5px solid #fbd200 ;
 
     }
     .event-img>img{

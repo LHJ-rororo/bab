@@ -16,13 +16,13 @@
     
 }
 body{
-    background: url('../img/bgbg2.jpg');
+    background: url('../img/origin-bg.jpg');
     background-position: cover;
     height: 5250px;
     background-repeat: no-repeat;
 }
 .txt-01{
-    padding-top: 10%;
+    padding-top: 300px;
 }
 .txt-01>h1{
     color: #fff;
@@ -31,31 +31,25 @@ body{
     
 }
 .logo{
-    padding-top: 5%;
+    padding-top: 50px;
     text-align: center;
 }
 .logo>img{
-    width: 700px;
+    width: 800px;
     text-align: center;
 }
 .txt-02>h1{
-    padding-top: 5%;
+    padding-top: 50px;
     color: #fbd200;
     font-size: 65px;
     text-align: center;
     
 }
-.img-01>img{
-    padding-top: 16%;
-}
-.img-02>img{
-    padding-top: 23%
-    /* width: 500px; */
-    
-}
+
 .middle{
     display: flex;
     justify-content: space-between;
+    padding-top: 350px;
 }
 .txt-03{
     text-align: center;
@@ -397,3 +391,7 @@ body{
     }
     
 }
+
+
+
+/*  */

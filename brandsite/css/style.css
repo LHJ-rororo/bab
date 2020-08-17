@@ -188,6 +188,9 @@
   font-size: 20px;
 }
 
+.no-gutters{
+  justify-content: space-between;
+}
 
   
 
@@ -916,7 +919,7 @@ h3 {
 
 /* line 32, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #F0542C;
+  color: #ac005c;
 }
 
 @media (max-width: 767px) {

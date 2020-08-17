@@ -204,7 +204,7 @@
 }
 
 .slicknav_nav a:hover {
-    background: #F79960 none repeat scroll 0 0;
+    background: #ac005c none repeat scroll 0 0;
     border-radius: 0;
     color: #ffffff;
 }
@@ -223,7 +223,7 @@
 .slicknav_nav .slicknav_row:hover,
 .slicknav_nav .slicknav_row:hover .slicknav_arrow {
     border-radius: 0;
-    background-color: #F79960;
+    background-color: #ac005c;
     background-color: transparent;
     color: #000;
 }

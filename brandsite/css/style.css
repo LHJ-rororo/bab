@@ -134,54 +134,11 @@
 .txt-box2>h3{
   display: none;
 }
-.line{
- border-bottom: #ac005c solid 1px;
- width: 130px;
- position: absolute;
- top: 55%;
+.event{
+  padding-top: 140px;
 }
-.event-area{
-  padding-top: 10%;
-}
-.event-txt>h1{
-  font-size: 24px;
-  font-family: 'NotoSerifKR';
-  padding-bottom: 20px;
-}
-.event-txt>p{
-  font-size: 18px;
-  font-family: 'NotoSerifKR';
-  line-height: 40px;
-  color: #616161;
-}
-.event-area2{
-  padding-top: 100px;
- 
-}
-.contact-btn{
-  width: 120px;
-  height: 50px;
-  border: 2px solid #ac005c;
-  border-radius: 50px;
-  margin: 0 auto;
-  margin-top: 10%;
-  cursor: pointer;
-}
-.contact-btn>p{
-  color: #ac005c;
-  padding-top: 6px;
-  font-family: 'NotoSerifKR';
-  font-size: 20px;
-}
-.contact-btn:hover{
-  background-color: #ac005c;
-  transition: .4s;
- 
-}
-.contact-btn:hover>p{
-  color: #fff;
-  transition: .2s;
-}
+
+
 .contact-title>p{
   font-family: 'NotoSerifKR';
   padding-top: 30px;
